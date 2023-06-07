@@ -4,16 +4,10 @@ using PayMem.RoadnetAnywhere;
 using PayMem.RoadnetAnywhere.Apex;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Diagnostics;
-using System.Drawing;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using Task = System.Threading.Tasks.Task;
 
 namespace LocationExporter
@@ -88,9 +82,6 @@ namespace LocationExporter
                 _outputFilePathAndName = filename;
                 Properties.Settings.Default.OutputFilePathAndName = _outputFilePathAndName;
                 Properties.Settings.Default.Save();
-
-                //var data = GetDataFromWebService();
-                //WriteDataToExcelFile(filename, data);
             }
         }
 
@@ -101,37 +92,19 @@ namespace LocationExporter
                 MessageBox.Show("Please select an output file first.");
                 return;
             }
+            Cursor = Cursors.WaitCursor;
 
-            await ConnectToRNAServer();
+            await RetrieveLocationInfoFromRNA();
 
-            var testData = new List<ServiceLocationLocal>
-            {
-                new ServiceLocationLocal
-                {
-                    Location_ID = "1",
-                    Location_Type = "Type1",
-                    Description = "Test Description 1",
-                    // ... continue for all your properties ...
-                    Latitude = 123.456,
-                    Longitude = 456.789
-                },
-                new ServiceLocationLocal
-                {
-                    Location_ID = "2",
-                    Location_Type = "Type2",
-                    Description = "Test Description 2",
-                    // ... continue for all your properties ...
-                    Latitude = 789.123,
-                    Longitude = 123.456
-                },
-                // ... continue adding as many test data rows as you need ...
-            };
+            progressLabel.Text = "Writing Location Information to Excel...";
+            WriteDataToExcelFile(_outputFilePathAndName);
 
-            //var data = GetDataFromWebService();
-            WriteDataToExcelFile(_outputFilePathAndName, testData);
+            progressLabel.Text = "Location Export Complete.";
+
+            Cursor = Cursors.Default;
         }
 
-        private void WriteDataToExcelFile(string filename, IEnumerable<ServiceLocationLocal> data)
+        private void WriteDataToExcelFile(string filename)
         {
             var xls = new XlsFile(true);
             xls.NewFile(1); // Creates a new Excel file with one worksheet.
@@ -170,30 +143,32 @@ namespace LocationExporter
 
             // Add data
             int row = 2;
-            foreach (var dataRow in data)
+            foreach (var location in serviceLocations)
             {
-                xls.SetCellValue(row, 1, dataRow.Location_ID);
-                xls.SetCellValue(row, 2, dataRow.Location_Type);
-                xls.SetCellValue(row, 3, dataRow.Description);
-                xls.SetCellValue(row, 4, dataRow.Address_Line1);
-                xls.SetCellValue(row, 5, dataRow.City);
-                xls.SetCellValue(row, 6, dataRow.State);
-                xls.SetCellValue(row, 7, dataRow.Zip_Code);
-                xls.SetCellValue(row, 8, dataRow.County);
-                xls.SetCellValue(row, 9, dataRow.Delivery_Days);
-                xls.SetCellValue(row, 10, dataRow.WKLYFREQ);
-                xls.SetCellValue(row, 11, dataRow.Phone);
-                xls.SetCellValue(row, 12, dataRow.Priority);
-                xls.SetCellValue(row, 13, dataRow.Zone);
-                xls.SetCellValue(row, 14, dataRow.Instructions);
-                xls.SetCellValue(row, 15, dataRow.Geocode_Quality);
-                xls.SetCellValue(row, 16, dataRow.User_Modified);
-                xls.SetCellValue(row, 17, dataRow.Date_Modified);
-                xls.SetCellValue(row, 18, dataRow.Date_Added);
-                xls.SetCellValue(row, 19, dataRow.Service_Time_Type);
-                xls.SetCellValue(row, 20, dataRow.Last_Order_Date);
-                xls.SetCellValue(row, 21, dataRow.Latitude);
-                xls.SetCellValue(row, 22, dataRow.Longitude);
+                xls.SetCellValue(row, 1, location.Value.Identifier);
+                xls.SetCellValue(row, 2, "SIT");
+                xls.SetCellValue(row, 3, location.Value.Description);
+                xls.SetCellValue(row, 4, location.Value.Address.AddressLine1);
+                xls.SetCellValue(row, 5, location.Value.Address.Locality.AdminDivisionCity);
+                xls.SetCellValue(row, 6, location.Value.Address.Locality.AdminDivision1);
+                xls.SetCellValue(row, 7, location.Value.Address.Locality.PostalCode);
+                xls.SetCellValue(row, 8, location.Value.Address.Locality.AdminDivision2);
+                xls.SetCellValue(row, 9, location.Value.DayOfWeekFlags_DeliveryDays);
+                if (location.Value.CustomProperties.ContainsKey("WKLYFREQ"))
+                    if (location.Value.CustomProperties["WKLYFREQ"] != null)
+                        xls.SetCellValue(row, 10, location.Value.CustomProperties["WKLYFREQ"].ToString());
+                xls.SetCellValue(row, 11, location.Value.PhoneNumber);
+                xls.SetCellValue(row, 12, location.Value.Priority);
+                xls.SetCellValue(row, 13, location.Value.Zone);
+                xls.SetCellValue(row, 14, location.Value.StandardInstructions);
+                xls.SetCellValue(row, 15, location.Value.GeocodeMethod_GeocodeMethod.ToString());
+                xls.SetCellValue(row, 16, location.Value.ModifiedBy);
+                xls.SetCellValue(row, 17, location.Value.ModifiedTime.ToLocalTime());
+                xls.SetCellValue(row, 18, location.Value.ModifiedTime.ToShortDateString());
+                xls.SetCellValue(row, 19, location.Value.ServiceTimeTypeIdentifier);
+                xls.SetCellValue(row, 20, location.Value.LastOrderDate);
+                xls.SetCellValue(row, 21, location.Value.Coordinate.Latitude);
+                xls.SetCellValue(row, 22, location.Value.Coordinate.Longitude);
 
                 row++;
             }
@@ -209,11 +184,12 @@ namespace LocationExporter
             }
         }
 
-        public async Task ConnectToRNAServer()
+        public async Task RetrieveLocationInfoFromRNA()
         {
             // Connect to RNA Server
             Stopwatch sw = Stopwatch.StartNew();
-            // _logger.Info("     Connecting to RNA Server...");
+            _logger.Info("     Connecting to RNA Server...");
+            progressLabel.Text = "Connecting to RNA Server...";
 
             connection = new ConnectionService();
             var connectionArgs = new ConnectionArgs
@@ -223,20 +199,10 @@ namespace LocationExporter
                 SearchForSupportedCustomer = true,
                 RnaEnvironment = RnaEnvironment.Production,
                 UseRouteNavigatorClientId = false,
-                //ServiceUser = "steve@SA.com",
-                //Password = "Omnitracs123"
-                ServiceUser = "customreports@sparksanalytics.com",
-                Password = "Roadnet@123"   // sps
-
+                ServiceUser = "steve2@SA.com",
+                Password = "#Omnitracs123"
             };
             var result = await connection.InitAsync(connectionArgs);
-            var regions = connection.GetRegions();
-            var retriever = new RetrieverService(connection);
-
-            serviceLocations = await retriever.RetrieveAllAsync<ServiceLocation>(new RetrievalOptions
-            {
-                PropertyInclusionMode = PropertyInclusionMode.All
-            }, regions[0], progress);
 
             if (result.Status == ConnectionStatus.AuthenticationError)
             {
@@ -247,12 +213,22 @@ namespace LocationExporter
             else
             {
                 _logger.Info("     Connected Successfully to RNA Server. Elapsed Seconds: " + sw.Elapsed.TotalSeconds);
+
+                var regions = connection.GetRegions();
+                var retriever = new RetrieverService(connection);
+
+                int rix = regions.FindIndex(r => r.Identifier == "31");
+                progressLabel.Text = "Retrieving Location Information...";
+
+                if (rix != -1)
+                {
+                    serviceLocations = await retriever.RetrieveAllAsync<ServiceLocation>(new RetrievalOptions
+                    {
+                        PropertyInclusionMode = PropertyInclusionMode.All
+                    }, regions[rix], progress);
+                }
+                progressLabel.Text = "Retrieving Location Complete";
             }
-        }
-
-        private void progressBar1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
