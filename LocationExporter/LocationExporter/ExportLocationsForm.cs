@@ -4,6 +4,7 @@ using PayMem.RoadnetAnywhere;
 using PayMem.RoadnetAnywhere.Apex;
 using System;
 using System.Collections.Generic;
+using System.Deployment.Application;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
@@ -21,37 +22,18 @@ namespace LocationExporter
 
         private static readonly ILogger _logger = LogManager.GetCurrentClassLogger();
 
-        public class ServiceLocationLocal
-        {
-            public string Location_ID { get; set; }
-            public string Location_Type { get; set; }
-            public string Description { get; set; }
-            public string Address_Line1 { get; set; }
-            public string City { get; set; }
-            public string State { get; set; }
-            public string Zip_Code { get; set; }
-            public string County { get; set; }
-            public string Delivery_Days { get; set; }
-            public string WKLYFREQ { get; set; }
-            public string Phone { get; set; }
-            public string Priority { get; set; }
-            public string Zone { get; set; }
-            public string Instructions { get; set; }
-            public string Geocode_Quality { get; set; }
-            public string User_Modified { get; set; }
-            public string Date_Modified { get; set; }
-            public string Date_Added { get; set; }
-            public string Service_Time_Type { get; set; }
-            public string Last_Order_Date { get; set; }
-            public double Latitude { get; set; }
-            public double Longitude { get; set; }
-        }
-
         public LocationExportDialog()
         {
-            _logger.Info("Location Export Application Starting.");
-
             InitializeComponent();
+
+            string version = Application.ProductVersion;
+
+            string fullAppDecription = "Breakthru Beverage Location Exporter v" + version;
+
+            this.Text = fullAppDecription;
+
+            _logger.Info(fullAppDecription);
+
             _outputFilePathAndName = Properties.Settings.Default.OutputFilePathAndName;
             FileDirAndName_TextBox.Text = _outputFilePathAndName;
 
@@ -154,9 +136,12 @@ namespace LocationExporter
                 xls.SetCellValue(row, 7, location.Value.Address.Locality.PostalCode);
                 xls.SetCellValue(row, 8, location.Value.Address.Locality.AdminDivision2);
                 xls.SetCellValue(row, 9, location.Value.DayOfWeekFlags_DeliveryDays);
-                if (location.Value.CustomProperties.ContainsKey("WKLYFREQ"))
-                    if (location.Value.CustomProperties["WKLYFREQ"] != null)
-                        xls.SetCellValue(row, 10, location.Value.CustomProperties["WKLYFREQ"].ToString());
+                if (location.Value.CustomProperties != null)
+                {
+                    if (location.Value.CustomProperties.ContainsKey("WKLYFREQ"))
+                        if (location.Value.CustomProperties["WKLYFREQ"] != null)
+                            xls.SetCellValue(row, 10, location.Value.CustomProperties["WKLYFREQ"].ToString());
+                }
                 xls.SetCellValue(row, 11, location.Value.PhoneNumber);
                 xls.SetCellValue(row, 12, location.Value.Priority);
                 xls.SetCellValue(row, 13, location.Value.Zone);
@@ -199,7 +184,8 @@ namespace LocationExporter
                 SearchForSupportedCustomer = true,
                 RnaEnvironment = RnaEnvironment.Production,
                 UseRouteNavigatorClientId = false,
-                ServiceUser = "steve2@SA.com",
+                //ServiceUser = "steve2@SA.com",
+                ServiceUser = "stevepfx1@SA.com",
                 Password = "#Omnitracs123"
             };
             var result = await connection.InitAsync(connectionArgs);

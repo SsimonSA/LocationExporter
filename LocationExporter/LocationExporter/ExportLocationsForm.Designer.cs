@@ -101,7 +101,7 @@
             this.Controls.Add(this.Quit_button);
             this.Controls.Add(this.Export_Button);
             this.Name = "LocationExportDialog";
-            this.Text = "Location Export Tool";
+            this.Text = "Breakthru Beverage Location Export Tool";
             this.ResumeLayout(false);
             this.PerformLayout();
 

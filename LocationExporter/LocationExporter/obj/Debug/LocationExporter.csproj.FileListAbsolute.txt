@@ -19,3 +19,7 @@ C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExpo
 C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExporter\LocationExporter\LocationExporter\bin\Debug\NLog.xml
 C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExporter\LocationExporter\LocationExporter\obj\Debug\LocationExporter.csproj.CopyComplete
 C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExporter\LocationExporter\LocationExporter\bin\Debug\NLog.config
+C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExporter\LocationExporter\LocationExporter\bin\Debug\LocationExporter.exe.manifest
+C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExporter\LocationExporter\LocationExporter\bin\Debug\LocationExporter.application
+C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExporter\LocationExporter\LocationExporter\obj\Debug\LocationExporter.exe.manifest
+C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExporter\LocationExporter\LocationExporter\obj\Debug\LocationExporter.application

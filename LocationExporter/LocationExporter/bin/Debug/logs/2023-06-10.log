@@ -1,0 +1,42 @@
+2023-06-10 09:51:57.8514 INFO Location Export Application Starting. 
+2023-06-10 09:52:38.0786 INFO      Connecting to RNA Server... 
+2023-06-10 09:52:45.4684 DEBUG ConnectionService.InitAsync[Full-Login-Call] - Completed in 7017 
+2023-06-10 09:52:45.5629 DEBUG ConnectionService.InitAsync[Query Service Construction] - Completed in 87 
+2023-06-10 09:52:47.1850 DEBUG ConnectionService.InitAsync[Retrieve-Regions-Call] - Completed in 1612 
+2023-06-10 09:52:47.5123 DEBUG ConnectionService.InitAsync[Retrieve-BusinessUnits-Call] - Completed in 319 
+2023-06-10 09:52:47.5839 DEBUG ConnectionService.InitAsync[Retrieve-URLs-Call] - Completed in 69 
+2023-06-10 09:52:47.7539 DEBUG ConnectionService.InitAsync - Completed in 9366 
+2023-06-10 09:52:47.7539 INFO      Connected Successfully to RNA Server. Elapsed Seconds: 9.6661663 
+2023-06-10 09:52:57.3467 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 0] - Completed in 9576 
+2023-06-10 09:53:03.7595 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 1] - Completed in 6404 
+2023-06-10 09:53:09.8267 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 2] - Completed in 6076 
+2023-06-10 09:53:17.0250 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 3] - Completed in 7193 
+2023-06-10 09:53:23.9894 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 4] - Completed in 6966 
+2023-06-10 09:53:31.2170 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 5] - Completed in 7213 
+2023-06-10 09:53:38.8776 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 6] - Completed in 7669 
+2023-06-10 09:53:46.2678 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 7] - Completed in 7384 
+2023-06-10 09:53:53.1101 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 8] - Completed in 6834 
+2023-06-10 09:53:59.8192 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 9] - Completed in 6716 
+2023-06-10 09:54:05.6440 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 10] - Completed in 5820 
+2023-06-10 09:54:05.6440 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation] - Completed in 77877 
+2023-06-10 09:56:44.4939 INFO Location Export Application Starting. 
+2023-06-10 09:57:18.0383 INFO      Connecting to RNA Server... 
+2023-06-10 09:57:25.0491 DEBUG ConnectionService.InitAsync[Full-Login-Call] - Completed in 6837 
+2023-06-10 09:57:25.1194 DEBUG ConnectionService.InitAsync[Query Service Construction] - Completed in 67 
+2023-06-10 09:57:26.5952 DEBUG ConnectionService.InitAsync[Retrieve-Regions-Call] - Completed in 1484 
+2023-06-10 09:57:26.9050 DEBUG ConnectionService.InitAsync[Retrieve-BusinessUnits-Call] - Completed in 294 
+2023-06-10 09:57:26.9626 DEBUG ConnectionService.InitAsync[Retrieve-URLs-Call] - Completed in 55 
+2023-06-10 09:57:27.1130 DEBUG ConnectionService.InitAsync - Completed in 8955 
+2023-06-10 09:57:27.1130 INFO      Connected Successfully to RNA Server. Elapsed Seconds: 9.0624289 
+2023-06-10 09:57:34.4086 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 0] - Completed in 7276 
+2023-06-10 09:57:41.5769 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 1] - Completed in 7177 
+2023-06-10 09:57:48.6591 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 2] - Completed in 7072 
+2023-06-10 09:57:55.5773 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 3] - Completed in 6926 
+2023-06-10 09:58:02.5025 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 4] - Completed in 6910 
+2023-06-10 09:58:09.8542 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 5] - Completed in 7352 
+2023-06-10 09:58:17.0217 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 6] - Completed in 7175 
+2023-06-10 09:58:24.1357 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 7] - Completed in 7106 
+2023-06-10 09:58:31.1968 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 8] - Completed in 7066 
+2023-06-10 09:58:37.7839 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 9] - Completed in 6581 
+2023-06-10 09:58:43.1446 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 10] - Completed in 5350 
+2023-06-10 09:58:43.1446 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation] - Completed in 76016 

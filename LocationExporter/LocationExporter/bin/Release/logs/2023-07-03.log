@@ -1,0 +1,9 @@
+2023-07-03 10:19:06.3316 INFO Breakthru Beverage Location Exporter v1.0.0.0 
+2023-07-03 10:19:11.1544 INFO      Connecting to RNA Server... 
+2023-07-03 10:19:18.8689 DEBUG ConnectionService.InitAsync[Full-Login-Call] - Completed in 6760 
+2023-07-03 10:19:18.9973 DEBUG ConnectionService.InitAsync[Query Service Construction] - Completed in 130 
+2023-07-03 10:19:23.3001 DEBUG ConnectionService.InitAsync[Retrieve-Regions-Call] - Completed in 4296 
+2023-07-03 10:19:23.7421 DEBUG ConnectionService.InitAsync[Retrieve-BusinessUnits-Call] - Completed in 444 
+2023-07-03 10:19:23.8900 DEBUG ConnectionService.InitAsync[Retrieve-URLs-Call] - Completed in 133 
+2023-07-03 10:19:24.1766 DEBUG ConnectionService.InitAsync - Completed in 12466 
+2023-07-03 10:19:24.1816 INFO      Connected Successfully to RNA Server. Elapsed Seconds: 13.0270541 
