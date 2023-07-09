@@ -31,9 +31,11 @@
             this.Export_Button = new System.Windows.Forms.Button();
             this.Quit_button = new System.Windows.Forms.Button();
             this.FileChooser_Button = new System.Windows.Forms.Button();
-            this.FileDirAndName_TextBox = new System.Windows.Forms.TextBox();
             this.progressLabel = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.label1 = new System.Windows.Forms.Label();
+            this.comboBox_Regions = new System.Windows.Forms.ComboBox();
+            this.label_OutputDirectory = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Export_Button
@@ -62,16 +64,9 @@
             this.FileChooser_Button.Name = "FileChooser_Button";
             this.FileChooser_Button.Size = new System.Drawing.Size(229, 28);
             this.FileChooser_Button.TabIndex = 2;
-            this.FileChooser_Button.Text = "Chose Output Directory and Filename";
+            this.FileChooser_Button.Text = "Chose Output Directory";
             this.FileChooser_Button.UseVisualStyleBackColor = true;
             this.FileChooser_Button.Click += new System.EventHandler(this.FileChooser_Button_Click);
-            // 
-            // FileDirAndName_TextBox
-            // 
-            this.FileDirAndName_TextBox.Location = new System.Drawing.Point(28, 46);
-            this.FileDirAndName_TextBox.Name = "FileDirAndName_TextBox";
-            this.FileDirAndName_TextBox.Size = new System.Drawing.Size(408, 20);
-            this.FileDirAndName_TextBox.TabIndex = 3;
             // 
             // progressLabel
             // 
@@ -89,14 +84,43 @@
             this.progressBar1.Size = new System.Drawing.Size(396, 17);
             this.progressBar1.TabIndex = 5;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(282, 18);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(41, 13);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Region";
+            // 
+            // comboBox_Regions
+            // 
+            this.comboBox_Regions.FormattingEnabled = true;
+            this.comboBox_Regions.Location = new System.Drawing.Point(329, 15);
+            this.comboBox_Regions.Name = "comboBox_Regions";
+            this.comboBox_Regions.Size = new System.Drawing.Size(121, 21);
+            this.comboBox_Regions.TabIndex = 7;
+            this.comboBox_Regions.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // label_OutputDirectory
+            // 
+            this.label_OutputDirectory.AutoSize = true;
+            this.label_OutputDirectory.Location = new System.Drawing.Point(36, 49);
+            this.label_OutputDirectory.Name = "label_OutputDirectory";
+            this.label_OutputDirectory.Size = new System.Drawing.Size(87, 13);
+            this.label_OutputDirectory.TabIndex = 8;
+            this.label_OutputDirectory.Text = "Output Directory:";
+            // 
             // LocationExportDialog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(452, 184);
+            this.ClientSize = new System.Drawing.Size(485, 185);
+            this.Controls.Add(this.label_OutputDirectory);
+            this.Controls.Add(this.comboBox_Regions);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.progressLabel);
-            this.Controls.Add(this.FileDirAndName_TextBox);
             this.Controls.Add(this.FileChooser_Button);
             this.Controls.Add(this.Quit_button);
             this.Controls.Add(this.Export_Button);
@@ -112,9 +136,11 @@
         private System.Windows.Forms.Button Export_Button;
         private System.Windows.Forms.Button Quit_button;
         private System.Windows.Forms.Button FileChooser_Button;
-        private System.Windows.Forms.TextBox FileDirAndName_TextBox;
         private System.Windows.Forms.Label progressLabel;
         private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox comboBox_Regions;
+        private System.Windows.Forms.Label label_OutputDirectory;
     }
 }
 

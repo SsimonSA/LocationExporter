@@ -6,8 +6,10 @@ using System;
 using System.Collections.Generic;
 using System.Deployment.Application;
 using System.Diagnostics;
+using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Threading;
 using System.Windows.Forms;
 using Task = System.Threading.Tasks.Task;
 
@@ -15,16 +17,26 @@ namespace LocationExporter
 {
     public partial class LocationExportDialog : Form
     {
-        private string _outputFilePathAndName;
+        private string _outputDirectory;
         public ConnectionService connection;
         public Dictionary<long, ServiceLocation> serviceLocations = new Dictionary<long, ServiceLocation>();
         private IProgress<RetrieverProgress> progress;
+        public class RegionInfo
+        {
+            public string Display { get; set; }
+            public PayMem.RoadnetAnywhere.Apex.Region Region { get; set; }
+        }
+        public List<RegionInfo> regionsInfo = new List<RegionInfo>();
+        public int activeRegionIx = 0;
+        public Region activeRegion;
 
         private static readonly ILogger _logger = LogManager.GetCurrentClassLogger();
 
         public LocationExportDialog()
         {
             InitializeComponent();
+
+            this.Load += new EventHandler(LocationExportDialog_Load);
 
             string version = Application.ProductVersion;
 
@@ -34,8 +46,7 @@ namespace LocationExporter
 
             _logger.Info(fullAppDecription);
 
-            _outputFilePathAndName = Properties.Settings.Default.OutputFilePathAndName;
-            FileDirAndName_TextBox.Text = _outputFilePathAndName;
+            _outputDirectory = Properties.Settings.Default.OutputDirectory;
 
             // Set the range of the progress bar.
             progressBar1.Minimum = 0;
@@ -45,33 +56,102 @@ namespace LocationExporter
             {
                 progressBar1.Value = (int)(p.RecordsRetrievedInBusinessUnitCount*100 / p.TotalRecordsInBusinessUnitCount);
             });
+
+        }
+
+        private async void LocationExportDialog_Load(object sender, EventArgs e)
+        {
+            Cursor = Cursors.WaitCursor;
+
+            label_OutputDirectory.Text = "Output Directory: " + _outputDirectory;
+
+            // Connect to RNA Server
+            Stopwatch sw = Stopwatch.StartNew();
+            _logger.Info("     Connecting to RNA Server...");
+            progressLabel.Text = "Connecting to RNA Server...";
+
+            connection = new ConnectionService();
+            var connectionArgs = new ConnectionArgs
+            {
+                IsAdminUser = false,
+                SupportedCustomerAlias = "test",
+                SearchForSupportedCustomer = true,
+                RnaEnvironment = RnaEnvironment.Production,
+                UseRouteNavigatorClientId = false,
+                ServiceUser = "steve2@SA.com",
+                Password = "#Omnitracs123"
+            };
+            var result = await connection.InitAsync(connectionArgs);
+
+            if (result.Status == ConnectionStatus.AuthenticationError)
+            {
+                _logger.Info("     Connecting to RNA Server Failed.");
+                _logger.Info("     ServiceUser: " + connectionArgs.ServiceUser);
+                _logger.Info("     Password: " + connectionArgs.Password);
+            }
+            else
+            {
+                var regions = connection.GetRegions();
+                foreach (var r in regions)
+                {
+                    RegionInfo regionInfo = new RegionInfo
+                    {
+                        Display = r.Identifier + " - " + r.Description,
+                        Region = r
+                    };
+                    regionsInfo.Add(regionInfo);
+                }
+                regionsInfo = regionsInfo.OrderBy(o => o.Display).ToList();
+
+                comboBox_Regions.DisplayMember = "Display";
+                comboBox_Regions.DataSource = regionsInfo;
+                activeRegionIx = Properties.Settings.Default.ActiveRegionIx;
+                comboBox_Regions.SelectedIndex = activeRegionIx;
+
+                _logger.Info("     Connected Successfully to RNA Server. Elapsed Seconds: " + sw.Elapsed.TotalSeconds);
+                progressLabel.Text = "Connection to RNA Server successful.  Ready for Export.";
+            }
+            Cursor = Cursors.Default;
         }
 
         private void Quit_button_Click(object sender, EventArgs e)
         {
+            Properties.Settings.Default.OutputDirectory = _outputDirectory;
+            Properties.Settings.Default.ActiveRegionIx = activeRegionIx;
+            Properties.Settings.Default.Save();
             Application.Exit();
         }
 
         private void FileChooser_Button_Click(object sender, EventArgs e)
         {
-            var saveFileDialog = new SaveFileDialog();
-            saveFileDialog.Filter = "Excel files (*.xlsx)|*.xlsx";
-            saveFileDialog.FileName = _outputFilePathAndName;
-            if (saveFileDialog.ShowDialog() == DialogResult.OK)
+            string selectedPath = _outputDirectory;
+            var t = new Thread((ThreadStart)(() =>
             {
-                var filename = saveFileDialog.FileName;
-                FileDirAndName_TextBox.Text = filename;
-                _outputFilePathAndName = filename;
-                Properties.Settings.Default.OutputFilePathAndName = _outputFilePathAndName;
-                Properties.Settings.Default.Save();
-            }
+                FolderBrowserDialog fbd = new FolderBrowserDialog
+                {
+                    RootFolder = System.Environment.SpecialFolder.MyComputer,
+                    ShowNewFolderButton = true,
+                    SelectedPath = _outputDirectory
+                };
+                if (fbd.ShowDialog() == DialogResult.Cancel)
+                    return;
+
+                selectedPath = fbd.SelectedPath;
+            }));
+
+            t.SetApartmentState(ApartmentState.STA);
+            t.Start();
+            t.Join();
+            _outputDirectory = selectedPath;
+            label_OutputDirectory.Text = "Output Directory: " + _outputDirectory;
         }
 
         private async void Export_Button_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(_outputFilePathAndName))
+            Export_Button.Enabled = false;
+            if (string.IsNullOrEmpty(_outputDirectory))
             {
-                MessageBox.Show("Please select an output file first.");
+                MessageBox.Show("Please select an output directory first.");
                 return;
             }
             Cursor = Cursors.WaitCursor;
@@ -79,10 +159,12 @@ namespace LocationExporter
             await RetrieveLocationInfoFromRNA();
 
             progressLabel.Text = "Writing Location Information to Excel...";
-            WriteDataToExcelFile(_outputFilePathAndName);
+            string fullFilename = _outputDirectory + @"\ServiceLocations - " + activeRegion.Identifier + ".xls";
+            WriteDataToExcelFile(fullFilename);
 
             progressLabel.Text = "Location Export Complete.";
 
+            Export_Button.Enabled = true;
             Cursor = Cursors.Default;
         }
 
@@ -171,50 +253,21 @@ namespace LocationExporter
 
         public async Task RetrieveLocationInfoFromRNA()
         {
-            // Connect to RNA Server
-            Stopwatch sw = Stopwatch.StartNew();
-            _logger.Info("     Connecting to RNA Server...");
-            progressLabel.Text = "Connecting to RNA Server...";
+            var retriever = new RetrieverService(connection);
+            progressLabel.Text = "Retrieving Location Information...";
 
-            connection = new ConnectionService();
-            var connectionArgs = new ConnectionArgs
+            serviceLocations = await retriever.RetrieveAllAsync<ServiceLocation>(new RetrievalOptions
             {
-                IsAdminUser = false,
-                SupportedCustomerAlias = "test",
-                SearchForSupportedCustomer = true,
-                RnaEnvironment = RnaEnvironment.Production,
-                UseRouteNavigatorClientId = false,
-                //ServiceUser = "steve2@SA.com",
-                ServiceUser = "stevepfx1@SA.com",
-                Password = "#Omnitracs123"
-            };
-            var result = await connection.InitAsync(connectionArgs);
+                PropertyInclusionMode = PropertyInclusionMode.All
+            }, activeRegion, progress);
 
-            if (result.Status == ConnectionStatus.AuthenticationError)
-            {
-                _logger.Info("     Connecting to RNA Server Failed.");
-                _logger.Info("     ServiceUser: " + connectionArgs.ServiceUser);
-                _logger.Info("     Password: " + connectionArgs.Password);
-            }
-            else
-            {
-                _logger.Info("     Connected Successfully to RNA Server. Elapsed Seconds: " + sw.Elapsed.TotalSeconds);
+            progressLabel.Text = "Retrieving Location Complete";
+        }
 
-                var regions = connection.GetRegions();
-                var retriever = new RetrieverService(connection);
-
-                int rix = regions.FindIndex(r => r.Identifier == "31");
-                progressLabel.Text = "Retrieving Location Information...";
-
-                if (rix != -1)
-                {
-                    serviceLocations = await retriever.RetrieveAllAsync<ServiceLocation>(new RetrievalOptions
-                    {
-                        PropertyInclusionMode = PropertyInclusionMode.All
-                    }, regions[rix], progress);
-                }
-                progressLabel.Text = "Retrieving Location Complete";
-            }
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            activeRegionIx = comboBox_Regions.SelectedIndex;
+            activeRegion = regionsInfo[activeRegionIx].Region;
         }
     }
 }
