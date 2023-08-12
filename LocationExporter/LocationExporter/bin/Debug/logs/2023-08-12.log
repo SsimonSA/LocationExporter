@@ -1,0 +1,93 @@
+2023-08-12 12:53:13.9868 INFO Breakthru Beverage Location Exporter v1.0.0.0 
+2023-08-12 12:53:14.1565 INFO      Connecting to RNA Server... 
+2023-08-12 13:16:00.1747 INFO Breakthru Beverage Location Exporter v1.0.0.0 
+2023-08-12 13:16:00.4904 INFO      Connecting to RNA Server... 
+2023-08-12 13:16:04.0446 DEBUG ConnectionService.InitAsync[Full-Login-Call] - Completed in 3057 
+2023-08-12 13:16:04.0446 DEBUG ConnectionService.InitAsync - Completed in 3228 
+2023-08-12 13:16:04.0446 INFO      Connecting to RNA Server Failed. 
+2023-08-12 13:16:04.0645 INFO      ServiceUser: steve2@SA.com 
+2023-08-12 13:16:04.0645 INFO      Password: Test 3 
+2023-08-12 13:18:55.2026 INFO Breakthru Beverage Location Exporter v1.0.0.0 
+2023-08-12 13:18:55.4279 INFO      Connecting to RNA Server... 
+2023-08-12 13:18:59.7196 DEBUG ConnectionService.InitAsync[Full-Login-Call] - Completed in 3993 
+2023-08-12 13:18:59.7196 DEBUG ConnectionService.InitAsync - Completed in 4082 
+2023-08-12 13:18:59.7379 INFO      Connecting to RNA Server Failed. 
+2023-08-12 13:18:59.7379 INFO      ServiceUser: steve2@SA.com 
+2023-08-12 13:18:59.7478 INFO      Password: Steve 
+2023-08-12 13:19:45.8266 INFO Breakthru Beverage Location Exporter v1.0.0.0 
+2023-08-12 13:19:46.1771 INFO      Connecting to RNA Server... 
+2023-08-12 13:19:49.6920 DEBUG ConnectionService.InitAsync[Full-Login-Call] - Completed in 3016 
+2023-08-12 13:19:49.7018 DEBUG ConnectionService.InitAsync - Completed in 3124 
+2023-08-12 13:19:49.7018 INFO      Connecting to RNA Server Failed. 
+2023-08-12 13:19:49.7180 INFO      ServiceUser: steve2@SA.com 
+2023-08-12 13:19:49.7180 INFO      Password: Steve 
+2023-08-12 13:21:02.2840 INFO Breakthru Beverage Location Exporter v1.0.0.0 
+2023-08-12 13:21:02.4500 INFO      Connecting to RNA Server... 
+2023-08-12 13:21:10.5934 DEBUG ConnectionService.InitAsync[Full-Login-Call] - Completed in 7639 
+2023-08-12 13:21:10.7136 DEBUG ConnectionService.InitAsync[Query Service Construction] - Completed in 117 
+2023-08-12 13:21:12.3230 DEBUG ConnectionService.InitAsync[Retrieve-Regions-Call] - Completed in 1607 
+2023-08-12 13:21:12.6475 DEBUG ConnectionService.InitAsync[Retrieve-BusinessUnits-Call] - Completed in 319 
+2023-08-12 13:21:12.7098 DEBUG ConnectionService.InitAsync[Retrieve-URLs-Call] - Completed in 58 
+2023-08-12 13:21:12.9471 DEBUG ConnectionService.InitAsync - Completed in 10268 
+2023-08-12 13:21:13.0715 INFO      Connected Successfully to RNA Server. Elapsed Seconds: 10.6220088 
+2023-08-12 13:24:23.0898 INFO Breakthru Beverage Location Exporter v1.0.0.0 
+2023-08-12 13:24:23.3827 INFO      Connecting to RNA Server... 
+2023-08-12 13:24:30.8952 DEBUG ConnectionService.InitAsync[Full-Login-Call] - Completed in 7124 
+2023-08-12 13:24:31.0233 DEBUG ConnectionService.InitAsync[Query Service Construction] - Completed in 124 
+2023-08-12 13:24:33.0758 DEBUG ConnectionService.InitAsync[Retrieve-Regions-Call] - Completed in 2041 
+2023-08-12 13:24:33.4502 DEBUG ConnectionService.InitAsync[Retrieve-BusinessUnits-Call] - Completed in 366 
+2023-08-12 13:24:33.5719 DEBUG ConnectionService.InitAsync[Retrieve-URLs-Call] - Completed in 118 
+2023-08-12 13:24:33.8762 DEBUG ConnectionService.InitAsync - Completed in 10181 
+2023-08-12 13:24:33.9581 INFO      Connected Successfully to RNA Server. Elapsed Seconds: 10.5757233 
+2023-08-12 13:24:52.2233 INFO Breakthru Beverage Location Exporter v1.0.0.0 
+2023-08-12 13:24:52.4592 INFO      Connecting to RNA Server... 
+2023-08-12 13:24:53.9997 DEBUG ConnectionService.InitAsync[Full-Login-Call] - Completed in 1045 
+2023-08-12 13:24:53.9997 DEBUG ConnectionService.InitAsync - Completed in 1146 
+2023-08-12 13:24:54.0172 INFO      Connecting to RNA Server Failed. 
+2023-08-12 13:24:54.0302 INFO      ServiceUser: steve2@SA.com 
+2023-08-12 13:24:54.0302 INFO      Password: Steve 
+2023-08-12 13:25:09.1744 INFO Breakthru Beverage Location Exporter v1.0.0.0 
+2023-08-12 13:25:09.4665 INFO      Connecting to RNA Server... 
+2023-08-12 13:25:11.5329 DEBUG ConnectionService.InitAsync[Full-Login-Call] - Completed in 1428 
+2023-08-12 13:25:11.5329 DEBUG ConnectionService.InitAsync - Completed in 1764 
+2023-08-12 13:25:11.5565 INFO      Connecting to RNA Server Failed. 
+2023-08-12 13:25:11.5695 INFO      ServiceUser: steve2@SA.com 
+2023-08-12 13:25:11.5966 INFO      Password: Steve 
+2023-08-12 13:25:30.1878 INFO Breakthru Beverage Location Exporter v1.0.0.0 
+2023-08-12 13:25:30.3736 INFO      Connecting to RNA Server... 
+2023-08-12 13:25:36.0511 DEBUG ConnectionService.InitAsync[Full-Login-Call] - Completed in 5327 
+2023-08-12 13:25:36.1342 DEBUG ConnectionService.InitAsync[Query Service Construction] - Completed in 80 
+2023-08-12 13:25:37.8692 DEBUG ConnectionService.InitAsync[Retrieve-Regions-Call] - Completed in 1733 
+2023-08-12 13:25:38.2461 DEBUG ConnectionService.InitAsync[Retrieve-BusinessUnits-Call] - Completed in 368 
+2023-08-12 13:25:38.3176 DEBUG ConnectionService.InitAsync[Retrieve-URLs-Call] - Completed in 69 
+2023-08-12 13:25:38.6011 DEBUG ConnectionService.InitAsync - Completed in 8007 
+2023-08-12 13:25:38.7007 INFO      Connected Successfully to RNA Server. Elapsed Seconds: 8.3270492 
+2023-08-12 13:28:59.9358 INFO Breakthru Beverage Location Exporter v1.0.0.0 
+2023-08-12 13:29:00.2649 INFO      Connecting to RNA Server... 
+2023-08-12 13:29:06.1399 DEBUG ConnectionService.InitAsync[Full-Login-Call] - Completed in 5307 
+2023-08-12 13:29:06.1948 DEBUG ConnectionService.InitAsync[Query Service Construction] - Completed in 53 
+2023-08-12 13:29:07.7298 DEBUG ConnectionService.InitAsync[Retrieve-Regions-Call] - Completed in 1533 
+2023-08-12 13:29:08.0064 DEBUG ConnectionService.InitAsync[Retrieve-BusinessUnits-Call] - Completed in 271 
+2023-08-12 13:29:08.0761 DEBUG ConnectionService.InitAsync[Retrieve-URLs-Call] - Completed in 67 
+2023-08-12 13:29:08.3911 DEBUG ConnectionService.InitAsync - Completed in 7661 
+2023-08-12 13:29:08.5123 INFO      Connected Successfully to RNA Server. Elapsed Seconds: 8.2468761 
+2023-08-12 13:30:29.1375 INFO Breakthru Beverage Location Exporter v1.0.0.0 
+2023-08-12 13:30:29.3005 INFO      Connecting to RNA Server... 
+2023-08-12 13:30:37.4585 DEBUG ConnectionService.InitAsync[Full-Login-Call] - Completed in 7847 
+2023-08-12 13:30:37.5265 DEBUG ConnectionService.InitAsync[Query Service Construction] - Completed in 65 
+2023-08-12 13:30:39.1447 DEBUG ConnectionService.InitAsync[Retrieve-Regions-Call] - Completed in 1616 
+2023-08-12 13:30:39.5215 DEBUG ConnectionService.InitAsync[Retrieve-BusinessUnits-Call] - Completed in 370 
+2023-08-12 13:30:39.6021 DEBUG ConnectionService.InitAsync[Retrieve-URLs-Call] - Completed in 78 
+2023-08-12 13:30:39.7721 DEBUG ConnectionService.InitAsync - Completed in 10243 
+2023-08-12 13:30:39.8505 INFO      Connected Successfully to RNA Server. Elapsed Seconds: 10.5505655 
+2023-08-12 13:30:53.9386 INFO Breakthru Beverage Location Exporter v1.0.0.0 
+2023-08-12 13:30:54.0273 INFO      Connecting to RNA Server... 
+2023-08-12 13:30:58.8467 DEBUG ConnectionService.InitAsync[Full-Login-Call] - Completed in 4688 
+2023-08-12 13:30:58.9058 DEBUG ConnectionService.InitAsync[Query Service Construction] - Completed in 56 
+2023-08-12 13:31:00.2797 DEBUG ConnectionService.InitAsync[Retrieve-Regions-Call] - Completed in 1372 
+2023-08-12 13:31:00.4958 DEBUG ConnectionService.InitAsync[Retrieve-BusinessUnits-Call] - Completed in 211 
+2023-08-12 13:31:00.6296 DEBUG ConnectionService.InitAsync[Retrieve-URLs-Call] - Completed in 131 
+2023-08-12 13:31:00.7619 DEBUG ConnectionService.InitAsync - Completed in 6641 
+2023-08-12 13:31:00.8206 INFO      Connected Successfully to RNA Server. Elapsed Seconds: 6.7932389 
+2023-08-12 13:34:41.0386 INFO Breakthru Beverage Location Exporter v1.0.0.0 
+2023-08-12 13:34:41.2528 INFO      Connecting to RNA Server... 

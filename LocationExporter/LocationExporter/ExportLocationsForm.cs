@@ -71,6 +71,15 @@ namespace LocationExporter
             progressLabel.Text = "Connecting to RNA Server...";
 
             connection = new ConnectionService();
+
+            PasswordUtility passwordUtility = new PasswordUtility();
+            string password = passwordUtility.GetPassword();
+
+            if (password.Equals(""))
+            {
+                password = "#Omnitracs123";
+            }
+
             var connectionArgs = new ConnectionArgs
             {
                 IsAdminUser = false,
@@ -79,7 +88,7 @@ namespace LocationExporter
                 RnaEnvironment = RnaEnvironment.Production,
                 UseRouteNavigatorClientId = false,
                 ServiceUser = "steve2@SA.com",
-                Password = "#Omnitracs123"
+                Password = password
             };
             var result = await connection.InitAsync(connectionArgs);
 
@@ -88,6 +97,8 @@ namespace LocationExporter
                 _logger.Info("     Connecting to RNA Server Failed.");
                 _logger.Info("     ServiceUser: " + connectionArgs.ServiceUser);
                 _logger.Info("     Password: " + connectionArgs.Password);
+                progressLabel.Text = "Connection to RNA Server failed. Check User steve2@SA.com's password.";
+                MessageBox.Show($"Logging in to RNA Server failed.  Make sure WebServices User: stevepfx1@SA.com is setup and that the password is set properly.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
@@ -268,6 +279,12 @@ namespace LocationExporter
         {
             activeRegionIx = comboBox_Regions.SelectedIndex;
             activeRegion = regionsInfo[activeRegionIx].Region;
+        }
+
+        private void Setup_button_Click(object sender, EventArgs e)
+        {
+            PasswordInputForm passwordInputForm = new PasswordInputForm();
+            passwordInputForm.ShowDialog();
         }
     }
 }

@@ -54,14 +54,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LocationExporter.exe" size="23000">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LocationExporter.exe" size="26584">
       <assemblyIdentity name="LocationExporter" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>LW5aSzeytmH7AlyzlEvihOkWdM8UbwXZ67SsRXgEfq0=</dsig:DigestValue>
+        <dsig:DigestValue>Lix482oZIEMVufjXgqhoqREyzr799KD3Uzl8ynjBFnw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -101,13 +101,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="LocationExporter.exe.config" size="1065">
+  <file name="LocationExporter.exe.config" size="1176">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>vtyxJOUr/jHG+J9QkpQ+L/sr0+68DfQcpwBAR75VG0E=</dsig:DigestValue>
+      <dsig:DigestValue>ib3HFZftc6vWFM3ST4QD46AzXQch+goPQ02ILIHUE4U=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

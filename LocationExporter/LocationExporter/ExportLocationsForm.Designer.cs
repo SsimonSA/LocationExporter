@@ -36,6 +36,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox_Regions = new System.Windows.Forms.ComboBox();
             this.label_OutputDirectory = new System.Windows.Forms.Label();
+            this.Setup_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Export_Button
@@ -50,7 +51,7 @@
             // 
             // Quit_button
             // 
-            this.Quit_button.Location = new System.Drawing.Point(260, 137);
+            this.Quit_button.Location = new System.Drawing.Point(329, 137);
             this.Quit_button.Name = "Quit_button";
             this.Quit_button.Size = new System.Drawing.Size(128, 35);
             this.Quit_button.TabIndex = 1;
@@ -111,11 +112,22 @@
             this.label_OutputDirectory.TabIndex = 8;
             this.label_OutputDirectory.Text = "Output Directory:";
             // 
+            // Setup_button
+            // 
+            this.Setup_button.Location = new System.Drawing.Point(206, 137);
+            this.Setup_button.Name = "Setup_button";
+            this.Setup_button.Size = new System.Drawing.Size(103, 35);
+            this.Setup_button.TabIndex = 9;
+            this.Setup_button.Text = "Setup";
+            this.Setup_button.UseVisualStyleBackColor = true;
+            this.Setup_button.Click += new System.EventHandler(this.Setup_button_Click);
+            // 
             // LocationExportDialog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(485, 185);
+            this.Controls.Add(this.Setup_button);
             this.Controls.Add(this.label_OutputDirectory);
             this.Controls.Add(this.comboBox_Regions);
             this.Controls.Add(this.label1);
@@ -141,6 +153,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox comboBox_Regions;
         private System.Windows.Forms.Label label_OutputDirectory;
+        private System.Windows.Forms.Button Setup_button;
     }
 }
 
