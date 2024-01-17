@@ -1,0 +1,4 @@
+2023-10-16 17:46:30.5212 INFO Breakthru Beverage Location Exporter v1.0.0.0 
+2023-10-16 17:46:30.6889 INFO      Connecting to RNA Server... 
+2023-10-16 17:46:38.1661 DEBUG ConnectionService.InitAsync[Full-Login-Call] - Completed in 7233 
+2023-10-16 17:46:38.2528 DEBUG ConnectionService.InitAsync[Query Service Construction] - Completed in 70 

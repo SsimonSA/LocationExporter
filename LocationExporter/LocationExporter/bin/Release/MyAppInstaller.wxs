@@ -1,0 +1,31 @@
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="*" Name="LocationExporter" Version="1.0.0.0" Manufacturer="YourCompanyName" UpgradeCode="PUT-GUID-HERE">
+    <Package InstallerVersion="200" Compressed="yes" />
+
+    <Media Id="1" Cabinet="locationexporter.cab" EmbedCab="yes" />
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="INSTALLDIR" Name="LocationExporter">
+          <!-- Application Files -->
+          <Component Id="LocationExporter.exe" Guid="*">
+            <File Id="LocationExporter.exe" Source="Path\To\LocationExporter.exe" KeyPath="yes"/>
+          </Component>
+          <!-- Add other files similarly -->
+          <!-- Example for an additional DLL -->
+          <Component Id="FlexCel.dll" Guid="*">
+            <File Id="FlexCel.dll" Source="Path\To\FlexCel.dll" />
+          </Component>
+          <!-- Repeat for other files -->
+        </Directory>
+      </Directory>
+    </Directory>
+
+    <Feature Id="ProductFeature" Title="LocationExporter" Level="1">
+      <ComponentRef Id="LocationExporter.exe" />
+      <ComponentRef Id="FlexCel.dll" />
+      <!-- Add references to other components here -->
+    </Feature>
+  </Product>
+</Wix>
+

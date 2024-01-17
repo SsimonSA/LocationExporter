@@ -1,0 +1,13 @@
+2024-01-17 08:32:28.5721 INFO Breakthru Beverage Location Exporter v1.0.0.0 
+2024-01-17 08:32:28.7037 INFO      Connecting to RNA Server... 
+2024-01-17 08:32:35.5302 DEBUG ConnectionService.InitAsync[Full-Login-Call] - Completed in 6481 
+2024-01-17 08:32:35.6120 DEBUG ConnectionService.InitAsync[Query Service Construction] - Completed in 83 
+2024-01-17 08:32:53.7580 INFO Breakthru Beverage Location Exporter v1.0.0.0 
+2024-01-17 08:32:53.8759 INFO      Connecting to RNA Server... 
+2024-01-17 08:33:01.5719 DEBUG ConnectionService.InitAsync[Full-Login-Call] - Completed in 7515 
+2024-01-17 08:33:01.6718 DEBUG ConnectionService.InitAsync[Query Service Construction] - Completed in 95 
+2024-01-17 08:33:14.1058 INFO Breakthru Beverage Location Exporter v1.0.1.0 
+2024-01-17 08:33:14.1889 INFO      Connecting to RNA Server... 
+2024-01-17 08:33:20.1761 DEBUG ConnectionService.InitAsync[Full-Login-Call] - Completed in 5860 
+2024-01-17 08:33:20.2818 DEBUG ConnectionService.InitAsync[Query Service Construction] - Completed in 107 
+2024-01-17 08:33:22.8619 DEBUG ConnectionService.InitAsync[Retrieve-Regions-Call] - Completed in 2572 

@@ -1,0 +1,21 @@
+ Volume in drive C is Windows
+ Volume Serial Number is BA8F-7F5E
+
+ Directory of C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExporter\LocationExporter\LocationExporter\bin\Release
+
+01/16/2024  12:44 PM    <DIR>          .
+01/16/2024  01:13 PM    <DIR>          ..
+07/13/2020  10:20 AM         3,564,352 FlexCel.dll
+01/16/2024  12:44 PM            28,672 LocationExporter.exe
+08/11/2023  12:37 PM             1,176 LocationExporter.exe.config
+01/16/2024  12:44 PM            60,928 LocationExporter.pdb
+06/06/2023  07:18 AM               548 NLog.config
+08/25/2019  06:04 PM           826,880 NLog.dll
+08/25/2019  06:04 PM         1,608,639 NLog.xml
+12/29/2023  07:56 PM             6,656 PayMem.Logging.dll
+12/29/2023  07:56 PM             8,636 PayMem.Logging.pdb
+12/29/2023  07:56 PM         7,516,160 PayMem.RoadnetAnywhere.dll
+09/16/2022  08:18 AM             3,527 PayMem.RoadnetAnywhere.dll.config
+12/29/2023  07:56 PM        11,077,120 PayMem.RoadnetAnywhere.pdb
+              12 File(s)     24,703,294 bytes
+               2 Dir(s)  67,968,352,256 bytes free

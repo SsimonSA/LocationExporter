@@ -1,7 +1,5 @@
 C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExporter\LocationExporter\LocationExporter\bin\Release\NLog.config
 C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExporter\LocationExporter\LocationExporter\bin\Release\LocationExporter.exe.config
-C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExporter\LocationExporter\LocationExporter\bin\Release\LocationExporter.exe.manifest
-C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExporter\LocationExporter\LocationExporter\bin\Release\LocationExporter.application
 C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExporter\LocationExporter\LocationExporter\bin\Release\LocationExporter.exe
 C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExporter\LocationExporter\LocationExporter\bin\Release\LocationExporter.pdb
 C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExporter\LocationExporter\LocationExporter\bin\Release\FlexCel.dll
@@ -16,10 +14,9 @@ C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExpo
 C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExporter\LocationExporter\LocationExporter\obj\Release\LocationExporter.csproj.SuggestedBindingRedirects.cache
 C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExporter\LocationExporter\LocationExporter\obj\Release\LocationExporter.LocationExportDialog.resources
 C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExporter\LocationExporter\LocationExporter\obj\Release\LocationExporter.Properties.Resources.resources
+C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExporter\LocationExporter\LocationExporter\obj\Release\LocationExporter.PasswordInputForm.resources
 C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExporter\LocationExporter\LocationExporter\obj\Release\LocationExporter.csproj.GenerateResource.cache
 C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExporter\LocationExporter\LocationExporter\obj\Release\LocationExporter.csproj.CoreCompileInputs.cache
-C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExporter\LocationExporter\LocationExporter\obj\Release\LocationExporter.exe.manifest
-C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExporter\LocationExporter\LocationExporter\obj\Release\LocationExporter.application
 C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExporter\LocationExporter\LocationExporter\obj\Release\LocationExporter.csproj.CopyComplete
 C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExporter\LocationExporter\LocationExporter\obj\Release\LocationExporter.exe
 C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExporter\LocationExporter\LocationExporter\obj\Release\LocationExporter.pdb

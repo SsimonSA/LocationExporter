@@ -54,14 +54,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LocationExporter.exe" size="26584">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LocationExporter.exe" size="27096">
       <assemblyIdentity name="LocationExporter" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Lix482oZIEMVufjXgqhoqREyzr799KD3Uzl8ynjBFnw=</dsig:DigestValue>
+        <dsig:DigestValue>NdPn39K5xxI75KkvA3N/U7uxwkM2pznU9TBlJLpP3l8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -85,19 +85,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>oL1RRgyNdlguA9IG6jl9L5BDtEb0J4oPJu6LvveTIbw=</dsig:DigestValue>
+        <dsig:DigestValue>7brgH/iL2aXc3Zr2RW2kwwja6kXaw3LIsPWwpHq7LXY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PayMem.RoadnetAnywhere.dll" size="7515648">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PayMem.RoadnetAnywhere.dll" size="7516160">
       <assemblyIdentity name="PayMem.RoadnetAnywhere" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Pc7nCz1X6mKsum//sBhQDn/kYHi44OUlHso3ZsJXAdc=</dsig:DigestValue>
+        <dsig:DigestValue>OcDb1lywVW9rkqanb2rCVCsHOBcc7Wu1qfU0gZn477k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
