@@ -24,3 +24,21 @@ C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExpo
 C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExporter\LocationExporter\LocationExporter\obj\Debug\LocationExporter.exe.manifest
 C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExporter\LocationExporter\LocationExporter\obj\Debug\LocationExporter.application
 C:\Users\ssimo\Dropbox\Sparks Analytics\Projects\Breakthru Beverage\LocationExporter\LocationExporter\LocationExporter\obj\Debug\LocationExporter.PasswordInputForm.resources
+C:\Users\ssimo\source\repos\SsimonSA\LocationExporter\LocationExporter\LocationExporter\bin\Debug\NLog.config
+C:\Users\ssimo\source\repos\SsimonSA\LocationExporter\LocationExporter\LocationExporter\bin\Debug\LocationExporter.exe.config
+C:\Users\ssimo\source\repos\SsimonSA\LocationExporter\LocationExporter\LocationExporter\bin\Debug\LocationExporter.exe
+C:\Users\ssimo\source\repos\SsimonSA\LocationExporter\LocationExporter\LocationExporter\bin\Debug\LocationExporter.pdb
+C:\Users\ssimo\source\repos\SsimonSA\LocationExporter\LocationExporter\LocationExporter\obj\Debug\LocationExporter.csproj.AssemblyReference.cache
+C:\Users\ssimo\source\repos\SsimonSA\LocationExporter\LocationExporter\LocationExporter\obj\Debug\LocationExporter.LocationExportDialog.resources
+C:\Users\ssimo\source\repos\SsimonSA\LocationExporter\LocationExporter\LocationExporter\obj\Debug\LocationExporter.Properties.Resources.resources
+C:\Users\ssimo\source\repos\SsimonSA\LocationExporter\LocationExporter\LocationExporter\obj\Debug\LocationExporter.PasswordInputForm.resources
+C:\Users\ssimo\source\repos\SsimonSA\LocationExporter\LocationExporter\LocationExporter\obj\Debug\LocationExporter.csproj.GenerateResource.cache
+C:\Users\ssimo\source\repos\SsimonSA\LocationExporter\LocationExporter\LocationExporter\obj\Debug\LocationExporter.csproj.CoreCompileInputs.cache
+C:\Users\ssimo\source\repos\SsimonSA\LocationExporter\LocationExporter\LocationExporter\obj\Debug\Location.2C6749EB.Up2Date
+C:\Users\ssimo\source\repos\SsimonSA\LocationExporter\LocationExporter\LocationExporter\obj\Debug\LocationExporter.exe
+C:\Users\ssimo\source\repos\SsimonSA\LocationExporter\LocationExporter\LocationExporter\obj\Debug\LocationExporter.pdb
+C:\Users\ssimo\source\repos\SsimonSA\LocationExporter\LocationExporter\LocationExporter\bin\Debug\PayMem.RoadnetAnywhere.dll
+C:\Users\ssimo\source\repos\SsimonSA\LocationExporter\LocationExporter\LocationExporter\bin\Debug\PayMem.Logging.dll
+C:\Users\ssimo\source\repos\SsimonSA\LocationExporter\LocationExporter\LocationExporter\bin\Debug\PayMem.RoadnetAnywhere.pdb
+C:\Users\ssimo\source\repos\SsimonSA\LocationExporter\LocationExporter\LocationExporter\bin\Debug\PayMem.RoadnetAnywhere.dll.config
+C:\Users\ssimo\source\repos\SsimonSA\LocationExporter\LocationExporter\LocationExporter\bin\Debug\PayMem.Logging.pdb

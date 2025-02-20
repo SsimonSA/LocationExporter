@@ -97,8 +97,8 @@ namespace LocationExporter
                 _logger.Info("     Connecting to RNA Server Failed.");
                 _logger.Info("     ServiceUser: " + connectionArgs.ServiceUser);
                 _logger.Info("     Password: " + connectionArgs.Password);
-                progressLabel.Text = "Connection to RNA Server failed. Check User steve2@SA.com's password.";
-                MessageBox.Show($"Logging in to RNA Server failed.  Make sure WebServices User: stevepfx1@SA.com is setup and that the password is set properly.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                progressLabel.Text = $"Connection to RNA Server failed. Check User {connectionArgs.ServiceUser}'s password.";
+                MessageBox.Show($"Logging in to RNA Server failed.  Make sure WebServices User: {connectionArgs.ServiceUser} is setup and that the password is set properly.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
@@ -247,7 +247,7 @@ namespace LocationExporter
                 xls.SetCellValue(row, 20, location.Value.LastOrderDate);
                 xls.SetCellValue(row, 21, location.Value.Coordinate.Latitude);
                 xls.SetCellValue(row, 22, location.Value.Coordinate.Longitude);
-
+                
                 row++;
             }
 

@@ -1,0 +1,774 @@
+2024-12-11 08:03:35.9292 INFO Breakthru Beverage Location Exporter v1.0.1.0 
+2024-12-11 08:03:35.9525 INFO      Connecting to RNA Server... 
+2024-12-11 08:03:38.9493 DEBUG ConnectionService.InitAsync[Full-Login-Call] - Completed in 2843 
+2024-12-11 08:03:38.9678 DEBUG ConnectionService.InitAsync[Query Service Construction] - Completed in 18 
+2024-12-11 08:03:40.5600 DEBUG ConnectionService.InitAsync[Retrieve-Regions-Call] - Completed in 1592 
+2024-12-11 08:03:40.7937 DEBUG ConnectionService.InitAsync[Retrieve-BusinessUnits-Call] - Completed in 230 
+2024-12-11 08:03:40.9521 DEBUG ConnectionService.InitAsync[Retrieve-URLs-Call] - Completed in 158 
+2024-12-11 08:03:40.9902 DEBUG ConnectionService.InitAsync - Completed in 4961 
+2024-12-11 08:03:41.0098 INFO      Connected Successfully to RNA Server. Elapsed Seconds: 5.0577922 
+2024-12-11 08:19:11.2466 INFO Breakthru Beverage Location Exporter v1.0.1.0 
+2024-12-11 08:19:11.2704 INFO      Connecting to RNA Server... 
+2024-12-11 08:19:14.1075 DEBUG ConnectionService.InitAsync[Full-Login-Call] - Completed in 2708 
+2024-12-11 08:19:14.1265 DEBUG ConnectionService.InitAsync[Query Service Construction] - Completed in 18 
+2024-12-11 08:19:15.6660 DEBUG ConnectionService.InitAsync[Retrieve-Regions-Call] - Completed in 1539 
+2024-12-11 08:19:15.9238 DEBUG ConnectionService.InitAsync[Retrieve-BusinessUnits-Call] - Completed in 255 
+2024-12-11 08:19:16.0804 DEBUG ConnectionService.InitAsync[Retrieve-URLs-Call] - Completed in 156 
+2024-12-11 08:19:16.1186 DEBUG ConnectionService.InitAsync - Completed in 4804 
+2024-12-11 08:19:16.1340 INFO      Connected Successfully to RNA Server. Elapsed Seconds: 4.8634952 
+2024-12-11 08:19:41.7142 INFO Breakthru Beverage Location Exporter v1.0.1.0 
+2024-12-11 08:19:41.7410 INFO      Connecting to RNA Server... 
+2024-12-11 08:19:43.8375 DEBUG ConnectionService.InitAsync[Full-Login-Call] - Completed in 1996 
+2024-12-11 08:19:43.8574 DEBUG ConnectionService.InitAsync[Query Service Construction] - Completed in 19 
+2024-12-11 08:19:45.0474 DEBUG ConnectionService.InitAsync[Retrieve-Regions-Call] - Completed in 1190 
+2024-12-11 08:19:45.2662 DEBUG ConnectionService.InitAsync[Retrieve-BusinessUnits-Call] - Completed in 217 
+2024-12-11 08:19:45.4191 DEBUG ConnectionService.InitAsync[Retrieve-URLs-Call] - Completed in 152 
+2024-12-11 08:19:45.4616 DEBUG ConnectionService.InitAsync - Completed in 3695 
+2024-12-11 08:19:45.4786 INFO      Connected Successfully to RNA Server. Elapsed Seconds: 3.7377925 
+2024-12-11 08:25:01.3079 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 0] - Completed in 253940 
+2024-12-11 08:43:40.1252 INFO Breakthru Beverage Location Exporter v1.0.1.0 
+2024-12-11 08:43:40.1482 INFO      Connecting to RNA Server... 
+2024-12-11 08:43:42.9640 DEBUG ConnectionService.InitAsync[Full-Login-Call] - Completed in 2705 
+2024-12-11 08:43:42.9820 DEBUG ConnectionService.InitAsync[Query Service Construction] - Completed in 17 
+2024-12-11 08:43:44.3173 DEBUG ConnectionService.InitAsync[Retrieve-Regions-Call] - Completed in 1334 
+2024-12-11 08:43:44.5414 DEBUG ConnectionService.InitAsync[Retrieve-BusinessUnits-Call] - Completed in 222 
+2024-12-11 08:43:44.6949 DEBUG ConnectionService.InitAsync[Retrieve-URLs-Call] - Completed in 153 
+2024-12-11 08:43:44.7348 DEBUG ConnectionService.InitAsync - Completed in 4551 
+2024-12-11 08:43:44.7530 INFO      Connected Successfully to RNA Server. Elapsed Seconds: 4.604774 
+2024-12-11 08:44:44.6151 INFO Breakthru Beverage Location Exporter v1.0.1.0 
+2024-12-11 08:44:44.6408 INFO      Connecting to RNA Server... 
+2024-12-11 08:44:46.7465 DEBUG ConnectionService.InitAsync[Full-Login-Call] - Completed in 2001 
+2024-12-11 08:44:46.7654 DEBUG ConnectionService.InitAsync[Query Service Construction] - Completed in 18 
+2024-12-11 08:44:48.0335 DEBUG ConnectionService.InitAsync[Retrieve-Regions-Call] - Completed in 1267 
+2024-12-11 08:44:48.2537 DEBUG ConnectionService.InitAsync[Retrieve-BusinessUnits-Call] - Completed in 218 
+2024-12-11 08:44:48.4291 DEBUG ConnectionService.InitAsync[Retrieve-URLs-Call] - Completed in 175 
+2024-12-11 08:44:48.4673 DEBUG ConnectionService.InitAsync - Completed in 3797 
+2024-12-11 08:44:48.4863 INFO      Connected Successfully to RNA Server. Elapsed Seconds: 3.8454483 
+2024-12-11 08:47:11.8791 INFO Breakthru Beverage Location Exporter v1.0.1.0 
+2024-12-11 08:47:11.9016 INFO      Connecting to RNA Server... 
+2024-12-11 08:47:24.9373 INFO Breakthru Beverage Location Exporter v1.0.1.0 
+2024-12-11 08:47:24.9613 INFO      Connecting to RNA Server... 
+2024-12-11 08:47:26.9984 DEBUG ConnectionService.InitAsync[Full-Login-Call] - Completed in 1940 
+2024-12-11 08:47:27.0164 DEBUG ConnectionService.InitAsync[Query Service Construction] - Completed in 17 
+2024-12-11 08:47:28.4273 DEBUG ConnectionService.InitAsync[Retrieve-Regions-Call] - Completed in 1409 
+2024-12-11 08:47:28.6757 DEBUG ConnectionService.InitAsync[Retrieve-BusinessUnits-Call] - Completed in 247 
+2024-12-11 08:47:28.8288 DEBUG ConnectionService.InitAsync[Retrieve-URLs-Call] - Completed in 152 
+2024-12-11 08:47:28.8678 DEBUG ConnectionService.InitAsync - Completed in 3880 
+2024-12-11 08:47:28.9006 INFO      Connected Successfully to RNA Server. Elapsed Seconds: 3.9396983 
+2024-12-11 09:42:00.3161 INFO Breakthru Beverage Location Exporter v1.0.1.0 
+2024-12-11 09:42:00.3417 INFO      Connecting to RNA Server... 
+2024-12-11 09:42:03.2401 DEBUG ConnectionService.InitAsync[Full-Login-Call] - Completed in 2782 
+2024-12-11 09:42:03.2582 DEBUG ConnectionService.InitAsync[Query Service Construction] - Completed in 18 
+2024-12-11 09:42:04.7883 DEBUG ConnectionService.InitAsync[Retrieve-Regions-Call] - Completed in 1529 
+2024-12-11 09:42:05.0042 DEBUG ConnectionService.InitAsync[Retrieve-BusinessUnits-Call] - Completed in 214 
+2024-12-11 09:42:05.1647 DEBUG ConnectionService.InitAsync[Retrieve-URLs-Call] - Completed in 159 
+2024-12-11 09:42:05.2155 DEBUG ConnectionService.InitAsync - Completed in 4843 
+2024-12-11 09:42:05.2316 INFO      Connected Successfully to RNA Server. Elapsed Seconds: 4.8902963 
+2024-12-11 09:42:22.5375 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 0] - Completed in 16099 
+2024-12-11 09:42:24.2991 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 1] - Completed in 1761 
+2024-12-11 09:42:25.9819 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 2] - Completed in 1682 
+2024-12-11 09:42:27.6583 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 3] - Completed in 1676 
+2024-12-11 09:42:29.4161 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 4] - Completed in 1756 
+2024-12-11 09:42:31.2290 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 5] - Completed in 1813 
+2024-12-11 09:42:32.9505 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 6] - Completed in 1720 
+2024-12-11 09:42:34.8037 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 7] - Completed in 1852 
+2024-12-11 09:42:36.7015 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 8] - Completed in 1897 
+2024-12-11 09:42:38.5307 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 9] - Completed in 1828 
+2024-12-11 09:42:40.1434 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 10] - Completed in 1612 
+2024-12-11 09:42:41.7367 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 11] - Completed in 1592 
+2024-12-11 09:42:43.4147 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 12] - Completed in 1678 
+2024-12-11 09:42:45.1730 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 13] - Completed in 1757 
+2024-12-11 09:42:46.8693 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 14] - Completed in 1695 
+2024-12-11 09:42:48.6520 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 15] - Completed in 1782 
+2024-12-11 09:42:50.3769 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 16] - Completed in 1724 
+2024-12-11 09:42:52.2533 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 17] - Completed in 1876 
+2024-12-11 09:42:54.0917 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 18] - Completed in 1837 
+2024-12-11 09:42:55.9077 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 19] - Completed in 1815 
+2024-12-11 09:42:57.7582 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 20] - Completed in 1850 
+2024-12-11 09:42:59.5865 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 21] - Completed in 1827 
+2024-12-11 09:43:01.2880 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 22] - Completed in 1700 
+2024-12-11 09:43:03.0997 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 23] - Completed in 1812 
+2024-12-11 09:43:05.1491 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 24] - Completed in 2048 
+2024-12-11 09:43:06.8904 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 25] - Completed in 1740 
+2024-12-11 09:43:08.6124 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 26] - Completed in 1722 
+2024-12-11 09:43:10.2646 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 27] - Completed in 1651 
+2024-12-11 09:43:11.7850 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 28] - Completed in 1519 
+2024-12-11 09:43:13.3174 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 29] - Completed in 1532 
+2024-12-11 09:43:14.8828 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 30] - Completed in 1564 
+2024-12-11 09:43:16.4880 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 31] - Completed in 1605 
+2024-12-11 09:43:18.0330 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 32] - Completed in 1544 
+2024-12-11 09:43:19.6563 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 33] - Completed in 1623 
+2024-12-11 09:43:21.1848 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 34] - Completed in 1523 
+2024-12-11 09:43:22.9508 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 35] - Completed in 1765 
+2024-12-11 09:43:24.5702 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 36] - Completed in 1619 
+2024-12-11 09:43:26.2628 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 37] - Completed in 1691 
+2024-12-11 09:43:27.9336 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 38] - Completed in 1670 
+2024-12-11 09:43:29.5897 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 39] - Completed in 1656 
+2024-12-11 09:43:31.3572 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 40] - Completed in 1766 
+2024-12-11 09:43:33.1299 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 41] - Completed in 1772 
+2024-12-11 09:43:34.7643 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 42] - Completed in 1634 
+2024-12-11 09:43:36.3678 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 43] - Completed in 1603 
+2024-12-11 09:43:38.0899 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 44] - Completed in 1721 
+2024-12-11 09:43:39.7481 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 45] - Completed in 1657 
+2024-12-11 09:43:41.3717 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 46] - Completed in 1623 
+2024-12-11 09:43:43.0857 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 47] - Completed in 1713 
+2024-12-11 09:43:44.7587 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 48] - Completed in 1672 
+2024-12-11 09:43:46.3652 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 49] - Completed in 1606 
+2024-12-11 09:43:48.0079 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 50] - Completed in 1642 
+2024-12-11 09:43:49.6581 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 51] - Completed in 1649 
+2024-12-11 09:43:51.7010 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 52] - Completed in 2042 
+2024-12-11 09:43:53.5987 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 53] - Completed in 1897 
+2024-12-11 09:43:55.1842 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 54] - Completed in 1584 
+2024-12-11 09:43:56.7541 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 55] - Completed in 1569 
+2024-12-11 09:43:58.3866 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 56] - Completed in 1632 
+2024-12-11 09:43:59.9817 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 57] - Completed in 1595 
+2024-12-11 09:44:01.6227 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 58] - Completed in 1640 
+2024-12-11 09:44:03.3529 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 59] - Completed in 1730 
+2024-12-11 09:44:05.0682 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 60] - Completed in 1714 
+2024-12-11 09:44:06.6880 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 61] - Completed in 1619 
+2024-12-11 09:44:08.3627 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 62] - Completed in 1673 
+2024-12-11 09:44:09.9744 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 63] - Completed in 1611 
+2024-12-11 09:44:11.5139 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 64] - Completed in 1538 
+2024-12-11 09:44:13.0708 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 65] - Completed in 1556 
+2024-12-11 09:44:14.6333 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 66] - Completed in 1562 
+2024-12-11 09:44:16.3847 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 67] - Completed in 1751 
+2024-12-11 09:44:18.0058 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 68] - Completed in 1620 
+2024-12-11 09:44:19.5971 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 69] - Completed in 1591 
+2024-12-11 09:44:21.2643 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 70] - Completed in 1667 
+2024-12-11 09:44:22.8282 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 71] - Completed in 1562 
+2024-12-11 09:44:24.4978 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 72] - Completed in 1669 
+2024-12-11 09:44:26.1235 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 73] - Completed in 1625 
+2024-12-11 09:44:27.7712 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 74] - Completed in 1646 
+2024-12-11 09:44:29.5791 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 75] - Completed in 1807 
+2024-12-11 09:44:31.2126 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 76] - Completed in 1632 
+2024-12-11 09:44:32.8605 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 77] - Completed in 1648 
+2024-12-11 09:44:34.5025 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 78] - Completed in 1641 
+2024-12-11 09:44:36.1046 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 79] - Completed in 1601 
+2024-12-11 09:44:39.0055 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 80] - Completed in 2900 
+2024-12-11 09:44:41.8955 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 81] - Completed in 2890 
+2024-12-11 09:44:43.6764 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 82] - Completed in 1779 
+2024-12-11 09:44:45.3208 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 83] - Completed in 1644 
+2024-12-11 09:44:47.0018 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 84] - Completed in 1680 
+2024-12-11 09:44:48.6417 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 85] - Completed in 1639 
+2024-12-11 09:44:50.2506 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 86] - Completed in 1608 
+2024-12-11 09:44:51.9578 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 87] - Completed in 1706 
+2024-12-11 09:44:53.6089 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 88] - Completed in 1651 
+2024-12-11 09:44:55.2471 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 89] - Completed in 1637 
+2024-12-11 09:44:57.3377 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 90] - Completed in 2090 
+2024-12-11 09:44:59.0294 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 91] - Completed in 1691 
+2024-12-11 09:45:00.6820 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 92] - Completed in 1652 
+2024-12-11 09:45:02.5406 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 93] - Completed in 1858 
+2024-12-11 09:45:04.2142 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 94] - Completed in 1672 
+2024-12-11 09:45:05.9780 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 95] - Completed in 1763 
+2024-12-11 09:45:07.6282 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 96] - Completed in 1650 
+2024-12-11 09:45:09.3039 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 97] - Completed in 1675 
+2024-12-11 09:45:11.0585 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 98] - Completed in 1753 
+2024-12-11 09:45:12.8792 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 99] - Completed in 1820 
+2024-12-11 09:45:14.6356 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 100] - Completed in 1756 
+2024-12-11 09:45:16.8458 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 101] - Completed in 2209 
+2024-12-11 09:45:18.7263 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 102] - Completed in 1880 
+2024-12-11 09:45:20.4386 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 103] - Completed in 1711 
+2024-12-11 09:45:22.5925 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 104] - Completed in 2153 
+2024-12-11 09:45:24.3225 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 105] - Completed in 1729 
+2024-12-11 09:45:26.0070 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 106] - Completed in 1683 
+2024-12-11 09:45:27.7940 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 107] - Completed in 1787 
+2024-12-11 09:45:29.5185 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 108] - Completed in 1723 
+2024-12-11 09:45:31.3026 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 109] - Completed in 1784 
+2024-12-11 09:45:32.9759 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 110] - Completed in 1672 
+2024-12-11 09:45:34.7466 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 111] - Completed in 1770 
+2024-12-11 09:45:36.4390 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 112] - Completed in 1692 
+2024-12-11 09:45:38.1598 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 113] - Completed in 1721 
+2024-12-11 09:45:39.8545 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 114] - Completed in 1694 
+2024-12-11 09:45:41.5394 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 115] - Completed in 1683 
+2024-12-11 09:45:43.3065 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 116] - Completed in 1767 
+2024-12-11 09:45:45.0380 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 117] - Completed in 1730 
+2024-12-11 09:45:46.8810 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 118] - Completed in 1842 
+2024-12-11 09:45:48.4983 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 119] - Completed in 1616 
+2024-12-11 09:45:50.1269 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 120] - Completed in 1628 
+2024-12-11 09:45:51.7484 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 121] - Completed in 1620 
+2024-12-11 09:45:53.3676 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 122] - Completed in 1619 
+2024-12-11 09:45:54.9676 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 123] - Completed in 1599 
+2024-12-11 09:45:56.6437 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 124] - Completed in 1676 
+2024-12-11 09:45:58.2354 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 125] - Completed in 1590 
+2024-12-11 09:45:59.9702 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 126] - Completed in 1734 
+2024-12-11 09:46:01.6586 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 127] - Completed in 1687 
+2024-12-11 09:46:03.3689 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 128] - Completed in 1710 
+2024-12-11 09:46:04.9819 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 129] - Completed in 1612 
+2024-12-11 09:46:06.6063 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 130] - Completed in 1623 
+2024-12-11 09:46:08.2436 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 131] - Completed in 1637 
+2024-12-11 09:46:09.9109 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 132] - Completed in 1666 
+2024-12-11 09:46:11.5336 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 133] - Completed in 1622 
+2024-12-11 09:46:13.2706 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 134] - Completed in 1734 
+2024-12-11 09:46:14.9970 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 135] - Completed in 1726 
+2024-12-11 09:46:16.7678 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 136] - Completed in 1770 
+2024-12-11 09:46:18.5093 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 137] - Completed in 1741 
+2024-12-11 09:46:20.4267 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 138] - Completed in 1917 
+2024-12-11 09:46:22.2850 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 139] - Completed in 1857 
+2024-12-11 09:46:24.3052 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 140] - Completed in 2019 
+2024-12-11 09:46:26.2234 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 141] - Completed in 1918 
+2024-12-11 09:46:27.9643 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 142] - Completed in 1740 
+2024-12-11 09:46:29.6689 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 143] - Completed in 1703 
+2024-12-11 09:46:31.3328 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 144] - Completed in 1663 
+2024-12-11 09:46:33.0362 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 145] - Completed in 1703 
+2024-12-11 09:46:34.7913 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 146] - Completed in 1754 
+2024-12-11 09:46:36.5033 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 147] - Completed in 1711 
+2024-12-11 09:46:38.3506 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 148] - Completed in 1847 
+2024-12-11 09:46:40.0568 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 149] - Completed in 1705 
+2024-12-11 09:46:41.7713 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 150] - Completed in 1714 
+2024-12-11 09:46:43.3549 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 151] - Completed in 1583 
+2024-12-11 09:46:45.1100 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 152] - Completed in 1755 
+2024-12-11 09:46:46.8711 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 153] - Completed in 1760 
+2024-12-11 09:46:48.5481 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 154] - Completed in 1676 
+2024-12-11 09:46:50.2981 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 155] - Completed in 1750 
+2024-12-11 09:46:52.1325 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 156] - Completed in 1833 
+2024-12-11 09:46:53.8749 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 157] - Completed in 1742 
+2024-12-11 09:46:55.6696 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 158] - Completed in 1794 
+2024-12-11 09:46:57.4907 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 159] - Completed in 1820 
+2024-12-11 09:46:59.2954 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 160] - Completed in 1803 
+2024-12-11 09:47:00.9660 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 161] - Completed in 1670 
+2024-12-11 09:47:02.7634 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 162] - Completed in 1796 
+2024-12-11 09:47:04.5033 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 163] - Completed in 1740 
+2024-12-11 09:47:06.3265 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 164] - Completed in 1822 
+2024-12-11 09:47:08.2674 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 165] - Completed in 1941 
+2024-12-11 09:47:09.9556 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 166] - Completed in 1687 
+2024-12-11 09:47:11.6828 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 167] - Completed in 1726 
+2024-12-11 09:47:13.3709 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 168] - Completed in 1687 
+2024-12-11 09:47:15.1313 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 169] - Completed in 1759 
+2024-12-11 09:47:16.9688 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 170] - Completed in 1837 
+2024-12-11 09:47:18.7249 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 171] - Completed in 1755 
+2024-12-11 09:47:20.4879 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 172] - Completed in 1762 
+2024-12-11 09:47:22.2027 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 173] - Completed in 1713 
+2024-12-11 09:47:23.9209 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 174] - Completed in 1718 
+2024-12-11 09:47:25.8005 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 175] - Completed in 1879 
+2024-12-11 09:47:27.5658 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 176] - Completed in 1764 
+2024-12-11 09:47:29.2520 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 177] - Completed in 1685 
+2024-12-11 09:47:30.8796 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 178] - Completed in 1627 
+2024-12-11 09:47:32.6161 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 179] - Completed in 1735 
+2024-12-11 09:47:34.2944 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 180] - Completed in 1677 
+2024-12-11 09:47:36.0268 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 181] - Completed in 1732 
+2024-12-11 09:47:37.7148 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 182] - Completed in 1687 
+2024-12-11 09:47:39.4039 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 183] - Completed in 1688 
+2024-12-11 09:47:41.0905 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 184] - Completed in 1685 
+2024-12-11 09:47:42.9315 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 185] - Completed in 1841 
+2024-12-11 09:47:44.5961 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 186] - Completed in 1664 
+2024-12-11 09:47:46.2498 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 187] - Completed in 1651 
+2024-12-11 09:47:47.9198 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 188] - Completed in 1669 
+2024-12-11 09:47:49.6083 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 189] - Completed in 1687 
+2024-12-11 09:47:51.2124 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 190] - Completed in 1603 
+2024-12-11 09:47:52.9474 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 191] - Completed in 1734 
+2024-12-11 09:47:54.6148 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 192] - Completed in 1667 
+2024-12-11 09:47:56.2346 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 193] - Completed in 1619 
+2024-12-11 09:47:58.0056 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 194] - Completed in 1770 
+2024-12-11 09:47:59.7651 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 195] - Completed in 1759 
+2024-12-11 09:48:01.5702 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 196] - Completed in 1804 
+2024-12-11 09:48:03.3005 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 197] - Completed in 1729 
+2024-12-11 09:48:04.9872 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 198] - Completed in 1687 
+2024-12-11 09:48:06.6862 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 199] - Completed in 1697 
+2024-12-11 09:48:08.3749 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 200] - Completed in 1688 
+2024-12-11 09:48:10.0775 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 201] - Completed in 1702 
+2024-12-11 09:48:11.7803 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 202] - Completed in 1701 
+2024-12-11 09:48:13.4755 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 203] - Completed in 1694 
+2024-12-11 09:48:15.1916 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 204] - Completed in 1715 
+2024-12-11 09:48:16.9101 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 205] - Completed in 1718 
+2024-12-11 09:48:18.5735 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 206] - Completed in 1662 
+2024-12-11 09:48:20.3537 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 207] - Completed in 1779 
+2024-12-11 09:48:22.1417 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 208] - Completed in 1787 
+2024-12-11 09:48:23.8847 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 209] - Completed in 1742 
+2024-12-11 09:48:25.6516 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 210] - Completed in 1765 
+2024-12-11 09:48:27.4428 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 211] - Completed in 1790 
+2024-12-11 09:48:29.1860 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 212] - Completed in 1742 
+2024-12-11 09:48:30.9061 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 213] - Completed in 1719 
+2024-12-11 09:48:32.6053 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 214] - Completed in 1698 
+2024-12-11 09:48:34.2205 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 215] - Completed in 1614 
+2024-12-11 09:48:35.8648 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 216] - Completed in 1644 
+2024-12-11 09:48:37.5920 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 217] - Completed in 1726 
+2024-12-11 09:48:39.3424 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 218] - Completed in 1749 
+2024-12-11 09:48:40.9924 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 219] - Completed in 1650 
+2024-12-11 09:48:42.8104 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 220] - Completed in 1817 
+2024-12-11 09:48:44.4566 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 221] - Completed in 1645 
+2024-12-11 09:48:46.1157 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 222] - Completed in 1658 
+2024-12-11 09:48:47.8114 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 223] - Completed in 1695 
+2024-12-11 09:48:49.4798 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 224] - Completed in 1668 
+2024-12-11 09:48:51.1687 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 225] - Completed in 1687 
+2024-12-11 09:48:52.9473 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 226] - Completed in 1778 
+2024-12-11 09:48:54.6506 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 227] - Completed in 1702 
+2024-12-11 09:48:56.3448 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 228] - Completed in 1694 
+2024-12-11 09:48:57.9732 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 229] - Completed in 1627 
+2024-12-11 09:48:59.7624 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 230] - Completed in 1788 
+2024-12-11 09:49:01.5668 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 231] - Completed in 1803 
+2024-12-11 09:49:03.2834 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 232] - Completed in 1716 
+2024-12-11 09:49:04.9835 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 233] - Completed in 1699 
+2024-12-11 09:49:06.9467 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 234] - Completed in 1962 
+2024-12-11 09:49:08.8487 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 235] - Completed in 1901 
+2024-12-11 09:49:10.6664 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 236] - Completed in 1817 
+2024-12-11 09:49:12.4205 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 237] - Completed in 1753 
+2024-12-11 09:49:14.2588 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 238] - Completed in 1837 
+2024-12-11 09:49:16.0329 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 239] - Completed in 1772 
+2024-12-11 09:49:17.8536 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 240] - Completed in 1821 
+2024-12-11 09:49:19.5582 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 241] - Completed in 1704 
+2024-12-11 09:49:21.3294 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 242] - Completed in 1770 
+2024-12-11 09:49:22.9906 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 243] - Completed in 1660 
+2024-12-11 09:49:24.7874 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 244] - Completed in 1796 
+2024-12-11 09:49:26.5519 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 245] - Completed in 1765 
+2024-12-11 09:49:28.2954 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 246] - Completed in 1742 
+2024-12-11 09:49:29.9906 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 247] - Completed in 1694 
+2024-12-11 09:49:31.7267 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 248] - Completed in 1735 
+2024-12-11 09:49:33.4835 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 249] - Completed in 1757 
+2024-12-11 09:49:35.1533 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 250] - Completed in 1668 
+2024-12-11 09:49:36.7715 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 251] - Completed in 1618 
+2024-12-11 09:49:38.5381 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 252] - Completed in 1766 
+2024-12-11 09:49:40.4327 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 253] - Completed in 1894 
+2024-12-11 09:49:42.1865 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 254] - Completed in 1753 
+2024-12-11 09:49:44.1008 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 255] - Completed in 1913 
+2024-12-11 09:49:45.8673 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 256] - Completed in 1766 
+2024-12-11 09:49:47.7400 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 257] - Completed in 1871 
+2024-12-11 09:49:49.5979 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 258] - Completed in 1857 
+2024-12-11 09:49:51.3626 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 259] - Completed in 1763 
+2024-12-11 09:49:53.0663 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 260] - Completed in 1703 
+2024-12-11 09:49:54.7356 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 261] - Completed in 1669 
+2024-12-11 09:49:56.5378 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 262] - Completed in 1801 
+2024-12-11 09:49:58.3643 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 263] - Completed in 1827 
+2024-12-11 09:49:59.9852 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 264] - Completed in 1619 
+2024-12-11 09:50:01.6566 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 265] - Completed in 1671 
+2024-12-11 09:50:03.4313 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 266] - Completed in 1774 
+2024-12-11 09:50:05.0808 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 267] - Completed in 1649 
+2024-12-11 09:50:06.8934 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 268] - Completed in 1812 
+2024-12-11 09:50:08.6998 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 269] - Completed in 1805 
+2024-12-11 09:50:10.3567 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 270] - Completed in 1657 
+2024-12-11 09:50:12.1714 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 271] - Completed in 1813 
+2024-12-11 09:50:13.8649 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 272] - Completed in 1693 
+2024-12-11 09:50:15.7660 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 273] - Completed in 1900 
+2024-12-11 09:50:18.1057 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 274] - Completed in 2339 
+2024-12-11 09:50:20.0152 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 275] - Completed in 1908 
+2024-12-11 09:50:21.7907 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 276] - Completed in 1776 
+2024-12-11 09:50:23.8902 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 277] - Completed in 2098 
+2024-12-11 09:50:25.6141 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 278] - Completed in 1723 
+2024-12-11 09:50:27.3771 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 279] - Completed in 1762 
+2024-12-11 09:50:29.0831 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 280] - Completed in 1706 
+2024-12-11 09:50:30.7364 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 281] - Completed in 1652 
+2024-12-11 09:50:32.4124 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 282] - Completed in 1675 
+2024-12-11 09:50:34.1385 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 283] - Completed in 1725 
+2024-12-11 09:50:35.8393 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 284] - Completed in 1700 
+2024-12-11 09:50:37.6602 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 285] - Completed in 1820 
+2024-12-11 09:50:39.3681 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 286] - Completed in 1707 
+2024-12-11 09:50:41.0065 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 287] - Completed in 1637 
+2024-12-11 09:50:42.6713 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 288] - Completed in 1664 
+2024-12-11 09:50:44.3422 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 289] - Completed in 1670 
+2024-12-11 09:50:46.0921 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 290] - Completed in 1750 
+2024-12-11 09:50:47.7923 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 291] - Completed in 1698 
+2024-12-11 09:50:49.4999 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 292] - Completed in 1707 
+2024-12-11 09:50:51.1557 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 293] - Completed in 1655 
+2024-12-11 09:50:52.8828 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 294] - Completed in 1726 
+2024-12-11 09:50:54.4989 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 295] - Completed in 1615 
+2024-12-11 09:50:56.1817 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 296] - Completed in 1682 
+2024-12-11 09:50:57.9041 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 297] - Completed in 1721 
+2024-12-11 09:50:59.6159 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 298] - Completed in 1711 
+2024-12-11 09:51:01.4746 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 299] - Completed in 1858 
+2024-12-11 09:51:03.2943 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 300] - Completed in 1819 
+2024-12-11 09:51:05.0122 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 301] - Completed in 1717 
+2024-12-11 09:51:06.7763 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 302] - Completed in 1764 
+2024-12-11 09:51:08.5739 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 303] - Completed in 1795 
+2024-12-11 09:51:10.2476 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 304] - Completed in 1672 
+2024-12-11 09:51:11.8702 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 305] - Completed in 1622 
+2024-12-11 09:51:13.5145 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 306] - Completed in 1643 
+2024-12-11 09:51:15.3572 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 307] - Completed in 1842 
+2024-12-11 09:51:17.1437 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 308] - Completed in 1785 
+2024-12-11 09:51:18.9524 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 309] - Completed in 1808 
+2024-12-11 09:51:20.6951 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 310] - Completed in 1742 
+2024-12-11 09:51:22.4437 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 311] - Completed in 1748 
+2024-12-11 09:51:24.1700 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 312] - Completed in 1725 
+2024-12-11 09:51:26.2983 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 313] - Completed in 2127 
+2024-12-11 09:51:29.1571 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 314] - Completed in 2859 
+2024-12-11 09:51:30.8548 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 315] - Completed in 1696 
+2024-12-11 09:51:32.5585 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 316] - Completed in 1703 
+2024-12-11 09:51:34.2278 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 317] - Completed in 1668 
+2024-12-11 09:51:35.9667 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 318] - Completed in 1738 
+2024-12-11 09:51:37.6370 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 319] - Completed in 1669 
+2024-12-11 09:51:39.2975 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 320] - Completed in 1660 
+2024-12-11 09:51:40.9614 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 321] - Completed in 1663 
+2024-12-11 09:51:42.5377 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 322] - Completed in 1576 
+2024-12-11 09:51:44.1553 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 323] - Completed in 1616 
+2024-12-11 09:51:45.8806 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 324] - Completed in 1725 
+2024-12-11 09:51:47.5549 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 325] - Completed in 1673 
+2024-12-11 09:51:49.1712 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 326] - Completed in 1616 
+2024-12-11 09:51:50.9306 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 327] - Completed in 1758 
+2024-12-11 09:51:52.5893 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 328] - Completed in 1658 
+2024-12-11 09:51:54.1761 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 329] - Completed in 1586 
+2024-12-11 09:51:55.8186 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 330] - Completed in 1641 
+2024-12-11 09:51:57.4419 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 331] - Completed in 1624 
+2024-12-11 09:51:59.0900 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 332] - Completed in 1647 
+2024-12-11 09:52:00.8244 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 333] - Completed in 1734 
+2024-12-11 09:52:02.5248 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 334] - Completed in 1700 
+2024-12-11 09:52:04.1140 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 335] - Completed in 1588 
+2024-12-11 09:52:05.9136 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 336] - Completed in 1799 
+2024-12-11 09:52:07.5886 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 337] - Completed in 1675 
+2024-12-11 09:52:09.2785 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 338] - Completed in 1688 
+2024-12-11 09:52:10.8794 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 339] - Completed in 1600 
+2024-12-11 09:52:12.4923 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 340] - Completed in 1612 
+2024-12-11 09:52:14.1034 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 341] - Completed in 1610 
+2024-12-11 09:52:15.7096 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 342] - Completed in 1606 
+2024-12-11 09:52:15.7096 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation] - Completed in 609273 
+2024-12-11 10:37:21.4822 INFO Breakthru Beverage Location Exporter v1.0.1.0 
+2024-12-11 10:37:21.5196 INFO      Connecting to RNA Server... 
+2024-12-11 10:37:24.4090 DEBUG ConnectionService.InitAsync[Full-Login-Call] - Completed in 2731 
+2024-12-11 10:37:24.4270 DEBUG ConnectionService.InitAsync[Query Service Construction] - Completed in 17 
+2024-12-11 10:37:25.8551 DEBUG ConnectionService.InitAsync[Retrieve-Regions-Call] - Completed in 1427 
+2024-12-11 10:37:26.0692 DEBUG ConnectionService.InitAsync[Retrieve-BusinessUnits-Call] - Completed in 212 
+2024-12-11 10:37:26.2254 DEBUG ConnectionService.InitAsync[Retrieve-URLs-Call] - Completed in 155 
+2024-12-11 10:37:26.2632 DEBUG ConnectionService.InitAsync - Completed in 4696 
+2024-12-11 10:37:26.2837 INFO      Connected Successfully to RNA Server. Elapsed Seconds: 4.7639236 
+2024-12-11 10:38:09.8206 INFO Breakthru Beverage Location Exporter v1.0.1.0 
+2024-12-11 10:38:09.8552 INFO      Connecting to RNA Server... 
+2024-12-11 10:38:11.9818 DEBUG ConnectionService.InitAsync[Full-Login-Call] - Completed in 2014 
+2024-12-11 10:38:12.0017 DEBUG ConnectionService.InitAsync[Query Service Construction] - Completed in 19 
+2024-12-11 10:38:13.3064 DEBUG ConnectionService.InitAsync[Retrieve-Regions-Call] - Completed in 1305 
+2024-12-11 10:38:13.5263 DEBUG ConnectionService.InitAsync[Retrieve-BusinessUnits-Call] - Completed in 218 
+2024-12-11 10:38:13.6803 DEBUG ConnectionService.InitAsync[Retrieve-URLs-Call] - Completed in 153 
+2024-12-11 10:38:13.7199 DEBUG ConnectionService.InitAsync - Completed in 3837 
+2024-12-11 10:38:13.7405 INFO      Connected Successfully to RNA Server. Elapsed Seconds: 3.8849483 
+2024-12-11 10:40:58.6621 INFO Breakthru Beverage Location Exporter v1.0.1.0 
+2024-12-11 10:40:58.6973 INFO      Connecting to RNA Server... 
+2024-12-11 10:41:00.9445 DEBUG ConnectionService.InitAsync[Full-Login-Call] - Completed in 2126 
+2024-12-11 10:41:00.9620 DEBUG ConnectionService.InitAsync[Query Service Construction] - Completed in 17 
+2024-12-11 10:41:04.0695 DEBUG ConnectionService.InitAsync[Retrieve-Regions-Call] - Completed in 3107 
+2024-12-11 10:41:04.2845 DEBUG ConnectionService.InitAsync[Retrieve-BusinessUnits-Call] - Completed in 212 
+2024-12-11 10:41:04.4596 DEBUG ConnectionService.InitAsync[Retrieve-URLs-Call] - Completed in 174 
+2024-12-11 10:41:04.4987 DEBUG ConnectionService.InitAsync - Completed in 5767 
+2024-12-11 10:41:04.5202 INFO      Connected Successfully to RNA Server. Elapsed Seconds: 5.8234895 
+2024-12-11 10:41:07.5567 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 0] - Completed in 2341 
+2024-12-11 10:41:09.3485 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 1] - Completed in 1791 
+2024-12-11 10:41:11.0890 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 2] - Completed in 1739 
+2024-12-11 10:41:12.9390 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 3] - Completed in 1850 
+2024-12-11 10:41:14.6445 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 4] - Completed in 1705 
+2024-12-11 10:41:16.5043 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 5] - Completed in 1859 
+2024-12-11 10:41:18.1660 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 6] - Completed in 1661 
+2024-12-11 10:41:19.9546 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 7] - Completed in 1788 
+2024-12-11 10:41:21.7239 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 8] - Completed in 1768 
+2024-12-11 10:41:23.6429 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 9] - Completed in 1918 
+2024-12-11 10:41:25.3649 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 10] - Completed in 1721 
+2024-12-11 10:41:27.1092 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 11] - Completed in 1743 
+2024-12-11 10:41:28.8812 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 12] - Completed in 1771 
+2024-12-11 10:41:30.6729 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 13] - Completed in 1791 
+2024-12-11 10:41:32.3694 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 14] - Completed in 1695 
+2024-12-11 10:41:34.0246 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 15] - Completed in 1654 
+2024-12-11 10:41:35.7850 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 16] - Completed in 1760 
+2024-12-11 10:41:37.4838 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 17] - Completed in 1698 
+2024-12-11 10:41:39.4041 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 18] - Completed in 1919 
+2024-12-11 10:41:41.1860 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 19] - Completed in 1781 
+2024-12-11 10:41:42.9813 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 20] - Completed in 1794 
+2024-12-11 10:41:44.6657 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 21] - Completed in 1684 
+2024-12-11 10:41:46.3530 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 22] - Completed in 1686 
+2024-12-11 10:41:48.1132 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 23] - Completed in 1760 
+2024-12-11 10:41:49.7377 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 24] - Completed in 1624 
+2024-12-11 10:41:51.4872 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 25] - Completed in 1748 
+2024-12-11 10:41:53.3138 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 26] - Completed in 1826 
+2024-12-11 10:41:54.9338 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 27] - Completed in 1619 
+2024-12-11 10:41:56.6954 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 28] - Completed in 1761 
+2024-12-11 10:41:58.3538 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 29] - Completed in 1658 
+2024-12-11 10:42:00.0042 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 30] - Completed in 1650 
+2024-12-11 10:42:01.6273 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 31] - Completed in 1622 
+2024-12-11 10:42:03.2125 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 32] - Completed in 1584 
+2024-12-11 10:42:04.7971 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 33] - Completed in 1583 
+2024-12-11 10:42:06.4243 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 34] - Completed in 1626 
+2024-12-11 10:42:08.1780 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 35] - Completed in 1753 
+2024-12-11 10:42:09.8382 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 36] - Completed in 1660 
+2024-12-11 10:42:11.4510 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 37] - Completed in 1612 
+2024-12-11 10:42:13.1037 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 38] - Completed in 1652 
+2024-12-11 10:42:14.8120 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 39] - Completed in 1708 
+2024-12-11 10:42:16.5574 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 40] - Completed in 1744 
+2024-12-11 10:42:18.2447 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 41] - Completed in 1687 
+2024-12-11 10:42:19.9019 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 42] - Completed in 1657 
+2024-12-11 10:42:21.5323 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 43] - Completed in 1629 
+2024-12-11 10:42:23.0858 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 44] - Completed in 1552 
+2024-12-11 10:42:24.6732 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 45] - Completed in 1586 
+2024-12-11 10:42:26.3024 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 46] - Completed in 1629 
+2024-12-11 10:42:28.6184 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 47] - Completed in 2315 
+2024-12-11 10:42:30.2546 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 48] - Completed in 1635 
+2024-12-11 10:42:31.8956 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 49] - Completed in 1641 
+2024-12-11 10:42:33.5290 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 50] - Completed in 1632 
+2024-12-11 10:42:35.2821 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 51] - Completed in 1752 
+2024-12-11 10:42:36.9958 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 52] - Completed in 1713 
+2024-12-11 10:42:38.7492 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 53] - Completed in 1753 
+2024-12-11 10:42:40.4343 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 54] - Completed in 1684 
+2024-12-11 10:42:42.0752 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 55] - Completed in 1641 
+2024-12-11 10:42:43.7393 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 56] - Completed in 1663 
+2024-12-11 10:42:45.3737 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 57] - Completed in 1633 
+2024-12-11 10:42:46.9908 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 58] - Completed in 1617 
+2024-12-11 10:42:48.6611 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 59] - Completed in 1670 
+2024-12-11 10:42:50.4180 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 60] - Completed in 1756 
+2024-12-11 10:42:52.0310 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 61] - Completed in 1612 
+2024-12-11 10:42:53.7820 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 62] - Completed in 1751 
+2024-12-11 10:42:55.5175 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 63] - Completed in 1734 
+2024-12-11 10:42:57.2661 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 64] - Completed in 1747 
+2024-12-11 10:42:58.9835 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 65] - Completed in 1717 
+2024-12-11 10:43:00.6685 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 66] - Completed in 1685 
+2024-12-11 10:43:02.2426 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 67] - Completed in 1573 
+2024-12-11 10:43:03.8608 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 68] - Completed in 1618 
+2024-12-11 10:43:05.5083 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 69] - Completed in 1646 
+2024-12-11 10:43:07.1953 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 70] - Completed in 1686 
+2024-12-11 10:43:08.9672 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 71] - Completed in 1771 
+2024-12-11 10:43:10.6510 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 72] - Completed in 1683 
+2024-12-11 10:43:12.3529 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 73] - Completed in 1701 
+2024-12-11 10:43:14.3227 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 74] - Completed in 1969 
+2024-12-11 10:43:16.1486 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 75] - Completed in 1824 
+2024-12-11 10:43:17.9241 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 76] - Completed in 1774 
+2024-12-11 10:43:19.5668 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 77] - Completed in 1643 
+2024-12-11 10:43:21.4317 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 78] - Completed in 1864 
+2024-12-11 10:43:23.1070 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 79] - Completed in 1674 
+2024-12-11 10:43:24.7129 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 80] - Completed in 1606 
+2024-12-11 10:43:26.2470 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 81] - Completed in 1533 
+2024-12-11 10:43:28.0111 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 82] - Completed in 1764 
+2024-12-11 10:43:29.6692 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 83] - Completed in 1658 
+2024-12-11 10:43:31.3764 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 84] - Completed in 1706 
+2024-12-11 10:43:33.0990 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 85] - Completed in 1723 
+2024-12-11 10:43:34.7004 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 86] - Completed in 1600 
+2024-12-11 10:43:36.3387 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 87] - Completed in 1638 
+2024-12-11 10:43:37.9773 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 88] - Completed in 1638 
+2024-12-11 10:43:39.6026 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 89] - Completed in 1624 
+2024-12-11 10:43:41.2997 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 90] - Completed in 1696 
+2024-12-11 10:43:42.9962 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 91] - Completed in 1696 
+2024-12-11 10:43:44.6853 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 92] - Completed in 1689 
+2024-12-11 10:43:46.2758 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 93] - Completed in 1589 
+2024-12-11 10:43:48.0555 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 94] - Completed in 1780 
+2024-12-11 10:43:49.7269 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 95] - Completed in 1670 
+2024-12-11 10:43:51.3867 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 96] - Completed in 1658 
+2024-12-11 10:43:53.1004 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 97] - Completed in 1713 
+2024-12-11 10:43:54.8195 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 98] - Completed in 1718 
+2024-12-11 10:43:56.4383 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 99] - Completed in 1618 
+2024-12-11 10:43:58.3108 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 100] - Completed in 1872 
+2024-12-11 10:43:59.8905 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 101] - Completed in 1579 
+2024-12-11 10:44:01.4547 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 102] - Completed in 1564 
+2024-12-11 10:44:03.2924 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 103] - Completed in 1837 
+2024-12-11 10:44:05.0593 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 104] - Completed in 1766 
+2024-12-11 10:44:06.8769 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 105] - Completed in 1816 
+2024-12-11 10:44:08.5978 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 106] - Completed in 1720 
+2024-12-11 10:44:10.3328 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 107] - Completed in 1734 
+2024-12-11 10:44:12.0089 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 108] - Completed in 1675 
+2024-12-11 10:44:13.6259 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 109] - Completed in 1616 
+2024-12-11 10:44:15.2103 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 110] - Completed in 1584 
+2024-12-11 10:44:16.9805 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 111] - Completed in 1770 
+2024-12-11 10:44:18.7852 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 112] - Completed in 1804 
+2024-12-11 10:44:20.4875 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 113] - Completed in 1701 
+2024-12-11 10:44:22.2065 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 114] - Completed in 1718 
+2024-12-11 10:44:23.8957 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 115] - Completed in 1689 
+2024-12-11 10:44:25.5238 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 116] - Completed in 1628 
+2024-12-11 10:44:27.1612 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 117] - Completed in 1637 
+2024-12-11 10:44:28.8132 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 118] - Completed in 1651 
+2024-12-11 10:44:30.4893 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 119] - Completed in 1675 
+2024-12-11 10:44:32.1349 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 120] - Completed in 1646 
+2024-12-11 10:44:33.7726 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 121] - Completed in 1637 
+2024-12-11 10:44:35.3953 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 122] - Completed in 1621 
+2024-12-11 10:44:36.9684 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 123] - Completed in 1573 
+2024-12-11 10:44:38.5926 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 124] - Completed in 1623 
+2024-12-11 10:44:40.2652 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 125] - Completed in 1671 
+2024-12-11 10:44:42.0834 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 126] - Completed in 1818 
+2024-12-11 10:44:43.6961 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 127] - Completed in 1611 
+2024-12-11 10:44:45.2904 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 128] - Completed in 1594 
+2024-12-11 10:44:46.8915 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 129] - Completed in 1600 
+2024-12-11 10:44:48.5492 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 130] - Completed in 1657 
+2024-12-11 10:44:50.2312 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 131] - Completed in 1681 
+2024-12-11 10:44:51.9468 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 132] - Completed in 1715 
+2024-12-11 10:44:53.7313 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 133] - Completed in 1783 
+2024-12-11 10:44:55.3373 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 134] - Completed in 1605 
+2024-12-11 10:44:57.0704 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 135] - Completed in 1733 
+2024-12-11 10:44:58.8269 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 136] - Completed in 1755 
+2024-12-11 10:45:00.5555 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 137] - Completed in 1729 
+2024-12-11 10:45:02.3173 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 138] - Completed in 1761 
+2024-12-11 10:45:04.1018 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 139] - Completed in 1783 
+2024-12-11 10:45:05.9063 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 140] - Completed in 1803 
+2024-12-11 10:45:07.6625 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 141] - Completed in 1755 
+2024-12-11 10:45:09.4080 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 142] - Completed in 1746 
+2024-12-11 10:45:11.1249 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 143] - Completed in 1715 
+2024-12-11 10:45:12.9401 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 144] - Completed in 1815 
+2024-12-11 10:45:14.7183 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 145] - Completed in 1777 
+2024-12-11 10:45:16.4908 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 146] - Completed in 1771 
+2024-12-11 10:45:19.0459 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 147] - Completed in 2554 
+2024-12-11 10:45:20.8977 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 148] - Completed in 1851 
+2024-12-11 10:45:22.7560 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 149] - Completed in 1857 
+2024-12-11 10:45:24.6872 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 150] - Completed in 1931 
+2024-12-11 10:45:26.5563 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 151] - Completed in 1867 
+2024-12-11 10:45:28.2786 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 152] - Completed in 1723 
+2024-12-11 10:45:30.1189 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 153] - Completed in 1838 
+2024-12-11 10:45:31.9453 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 154] - Completed in 1825 
+2024-12-11 10:45:33.8935 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 155] - Completed in 1948 
+2024-12-11 10:45:35.6439 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 156] - Completed in 1749 
+2024-12-11 10:45:37.7273 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 157] - Completed in 2083 
+2024-12-11 10:45:39.3602 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 158] - Completed in 1632 
+2024-12-11 10:45:40.9310 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 159] - Completed in 1569 
+2024-12-11 10:45:42.6482 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 160] - Completed in 1716 
+2024-12-11 10:45:44.2679 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 161] - Completed in 1619 
+2024-12-11 10:45:46.1889 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 162] - Completed in 1920 
+2024-12-11 10:45:47.7802 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 163] - Completed in 1590 
+2024-12-11 10:45:49.5724 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 164] - Completed in 1791 
+2024-12-11 10:45:51.4238 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 165] - Completed in 1851 
+2024-12-11 10:45:53.1726 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 166] - Completed in 1748 
+2024-12-11 10:45:54.8284 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 167] - Completed in 1656 
+2024-12-11 10:45:56.5413 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 168] - Completed in 1710 
+2024-12-11 10:45:58.4391 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 169] - Completed in 1898 
+2024-12-11 10:46:00.1424 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 170] - Completed in 1702 
+2024-12-11 10:46:01.8955 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 171] - Completed in 1753 
+2024-12-11 10:46:03.5972 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 172] - Completed in 1700 
+2024-12-11 10:46:05.2713 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 173] - Completed in 1673 
+2024-12-11 10:46:06.7958 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 174] - Completed in 1524 
+2024-12-11 10:46:08.3861 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 175] - Completed in 1590 
+2024-12-11 10:46:10.0138 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 176] - Completed in 1626 
+2024-12-11 10:46:11.6525 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 177] - Completed in 1638 
+2024-12-11 10:46:13.4324 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 178] - Completed in 1779 
+2024-12-11 10:46:15.0144 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 179] - Completed in 1581 
+2024-12-11 10:46:16.6212 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 180] - Completed in 1606 
+2024-12-11 10:46:18.3074 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 181] - Completed in 1685 
+2024-12-11 10:46:20.0708 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 182] - Completed in 1763 
+2024-12-11 10:46:21.8163 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 183] - Completed in 1745 
+2024-12-11 10:46:23.4749 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 184] - Completed in 1657 
+2024-12-11 10:46:25.1420 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 185] - Completed in 1667 
+2024-12-11 10:46:26.9570 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 186] - Completed in 1814 
+2024-12-11 10:46:28.6919 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 187] - Completed in 1734 
+2024-12-11 10:46:30.4582 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 188] - Completed in 1765 
+2024-12-11 10:46:32.1477 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 189] - Completed in 1689 
+2024-12-11 10:46:33.8920 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 190] - Completed in 1743 
+2024-12-11 10:46:35.6667 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 191] - Completed in 1774 
+2024-12-11 10:46:37.2765 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 192] - Completed in 1608 
+2024-12-11 10:46:39.1926 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 193] - Completed in 1916 
+2024-12-11 10:46:40.9716 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 194] - Completed in 1778 
+2024-12-11 10:46:42.8656 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 195] - Completed in 1893 
+2024-12-11 10:46:44.9010 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 196] - Completed in 2035 
+2024-12-11 10:46:46.6506 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 197] - Completed in 1748 
+2024-12-11 10:46:48.3616 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 198] - Completed in 1710 
+2024-12-11 10:46:50.0799 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 199] - Completed in 1718 
+2024-12-11 10:46:51.7438 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 200] - Completed in 1663 
+2024-12-11 10:46:53.4171 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 201] - Completed in 1673 
+2024-12-11 10:46:55.2045 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 202] - Completed in 1787 
+2024-12-11 10:46:56.9450 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 203] - Completed in 1739 
+2024-12-11 10:46:58.7098 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 204] - Completed in 1764 
+2024-12-11 10:47:00.4872 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 205] - Completed in 1776 
+2024-12-11 10:47:02.1548 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 206] - Completed in 1667 
+2024-12-11 10:47:03.8086 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 207] - Completed in 1653 
+2024-12-11 10:47:05.5621 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 208] - Completed in 1753 
+2024-12-11 10:47:07.2522 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 209] - Completed in 1689 
+2024-12-11 10:47:08.9204 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 210] - Completed in 1668 
+2024-12-11 10:47:10.5500 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 211] - Completed in 1629 
+2024-12-11 10:47:12.1836 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 212] - Completed in 1633 
+2024-12-11 10:47:13.9125 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 213] - Completed in 1728 
+2024-12-11 10:47:15.6319 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 214] - Completed in 1719 
+2024-12-11 10:47:17.4017 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 215] - Completed in 1769 
+2024-12-11 10:47:19.3288 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 216] - Completed in 1926 
+2024-12-11 10:47:20.9959 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 217] - Completed in 1666 
+2024-12-11 10:47:22.7000 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 218] - Completed in 1704 
+2024-12-11 10:47:24.3486 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 219] - Completed in 1647 
+2024-12-11 10:47:26.0329 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 220] - Completed in 1683 
+2024-12-11 10:47:27.6970 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 221] - Completed in 1664 
+2024-12-11 10:47:29.5138 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 222] - Completed in 1816 
+2024-12-11 10:47:31.1950 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 223] - Completed in 1680 
+2024-12-11 10:47:32.9527 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 224] - Completed in 1757 
+2024-12-11 10:47:34.7365 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 225] - Completed in 1783 
+2024-12-11 10:47:36.5004 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 226] - Completed in 1763 
+2024-12-11 10:47:38.2474 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 227] - Completed in 1746 
+2024-12-11 10:47:39.9969 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 228] - Completed in 1749 
+2024-12-11 10:47:41.8041 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 229] - Completed in 1807 
+2024-12-11 10:47:43.5054 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 230] - Completed in 1701 
+2024-12-11 10:47:45.2756 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 231] - Completed in 1769 
+2024-12-11 10:47:47.0780 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 232] - Completed in 1802 
+2024-12-11 10:47:48.7976 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 233] - Completed in 1718 
+2024-12-11 10:47:50.5227 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 234] - Completed in 1724 
+2024-12-11 10:47:52.2278 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 235] - Completed in 1705 
+2024-12-11 10:47:53.9732 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 236] - Completed in 1743 
+2024-12-11 10:47:55.6508 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 237] - Completed in 1677 
+2024-12-11 10:47:57.2868 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 238] - Completed in 1635 
+2024-12-11 10:47:58.9976 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 239] - Completed in 1710 
+2024-12-11 10:48:00.6853 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 240] - Completed in 1687 
+2024-12-11 10:48:02.3359 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 241] - Completed in 1649 
+2024-12-11 10:48:03.9977 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 242] - Completed in 1662 
+2024-12-11 10:48:05.7568 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 243] - Completed in 1758 
+2024-12-11 10:48:07.3902 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 244] - Completed in 1632 
+2024-12-11 10:48:09.2166 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 245] - Completed in 1826 
+2024-12-11 10:48:10.8332 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 246] - Completed in 1616 
+2024-12-11 10:48:12.4338 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 247] - Completed in 1599 
+2024-12-11 10:48:14.0330 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 248] - Completed in 1599 
+2024-12-11 10:48:15.6781 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 249] - Completed in 1644 
+2024-12-11 10:48:17.3726 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 250] - Completed in 1694 
+2024-12-11 10:48:19.0959 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 251] - Completed in 1722 
+2024-12-11 10:48:20.8633 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 252] - Completed in 1767 
+2024-12-11 10:48:22.5860 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 253] - Completed in 1722 
+2024-12-11 10:48:24.2525 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 254] - Completed in 1665 
+2024-12-11 10:48:25.9124 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 255] - Completed in 1659 
+2024-12-11 10:48:27.6323 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 256] - Completed in 1719 
+2024-12-11 10:48:29.2536 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 257] - Completed in 1620 
+2024-12-11 10:48:30.8765 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 258] - Completed in 1623 
+2024-12-11 10:48:32.6073 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 259] - Completed in 1729 
+2024-12-11 10:48:34.2308 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 260] - Completed in 1623 
+2024-12-11 10:48:36.0125 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 261] - Completed in 1780 
+2024-12-11 10:48:37.7175 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 262] - Completed in 1705 
+2024-12-11 10:48:39.3635 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 263] - Completed in 1645 
+2024-12-11 10:48:40.9996 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 264] - Completed in 1636 
+2024-12-11 10:48:42.7281 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 265] - Completed in 1728 
+2024-12-11 10:48:44.4013 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 266] - Completed in 1672 
+2024-12-11 10:48:46.0180 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 267] - Completed in 1616 
+2024-12-11 10:48:47.6017 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 268] - Completed in 1582 
+2024-12-11 10:48:49.2084 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 269] - Completed in 1606 
+2024-12-11 10:48:50.8432 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 270] - Completed in 1634 
+2024-12-11 10:48:52.4719 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 271] - Completed in 1627 
+2024-12-11 10:48:54.4428 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 272] - Completed in 1971 
+2024-12-11 10:48:56.1661 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 273] - Completed in 1722 
+2024-12-11 10:48:57.7776 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 274] - Completed in 1611 
+2024-12-11 10:48:59.4343 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 275] - Completed in 1656 
+2024-12-11 10:49:01.1115 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 276] - Completed in 1676 
+2024-12-11 10:49:02.8732 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 277] - Completed in 1761 
+2024-12-11 10:49:05.0114 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 278] - Completed in 2137 
+2024-12-11 10:49:07.4117 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 279] - Completed in 2399 
+2024-12-11 10:49:09.0965 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 280] - Completed in 1683 
+2024-12-11 10:49:10.8054 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 281] - Completed in 1709 
+2024-12-11 10:49:12.5316 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 282] - Completed in 1725 
+2024-12-11 10:49:14.2023 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 283] - Completed in 1670 
+2024-12-11 10:49:15.8408 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 284] - Completed in 1637 
+2024-12-11 10:49:17.4892 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 285] - Completed in 1648 
+2024-12-11 10:49:19.1937 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 286] - Completed in 1704 
+2024-12-11 10:49:20.8652 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 287] - Completed in 1671 
+2024-12-11 10:49:22.6475 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 288] - Completed in 1782 
+2024-12-11 10:49:24.3493 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 289] - Completed in 1700 
+2024-12-11 10:49:26.1821 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 290] - Completed in 1832 
+2024-12-11 10:49:27.8482 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 291] - Completed in 1665 
+2024-12-11 10:49:29.6598 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 292] - Completed in 1811 
+2024-12-11 10:49:31.3453 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 293] - Completed in 1684 
+2024-12-11 10:49:33.1392 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 294] - Completed in 1793 
+2024-12-11 10:49:34.8512 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 295] - Completed in 1711 
+2024-12-11 10:49:36.5514 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 296] - Completed in 1699 
+2024-12-11 10:49:38.2657 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 297] - Completed in 1714 
+2024-12-11 10:49:39.9605 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 298] - Completed in 1694 
+2024-12-11 10:49:41.5782 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 299] - Completed in 1618 
+2024-12-11 10:49:43.6690 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 300] - Completed in 2090 
+2024-12-11 10:49:45.3019 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 301] - Completed in 1632 
+2024-12-11 10:49:46.9720 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 302] - Completed in 1669 
+2024-12-11 10:49:48.6023 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 303] - Completed in 1630 
+2024-12-11 10:49:50.1738 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 304] - Completed in 1570 
+2024-12-11 10:49:51.8081 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 305] - Completed in 1634 
+2024-12-11 10:49:53.4777 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 306] - Completed in 1669 
+2024-12-11 10:49:55.0978 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 307] - Completed in 1619 
+2024-12-11 10:49:56.7265 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 308] - Completed in 1628 
+2024-12-11 10:49:58.5206 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 309] - Completed in 1794 
+2024-12-11 10:50:00.2218 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 310] - Completed in 1700 
+2024-12-11 10:50:02.0100 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 311] - Completed in 1787 
+2024-12-11 10:50:03.7936 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 312] - Completed in 1783 
+2024-12-11 10:50:05.4818 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 313] - Completed in 1687 
+2024-12-11 10:50:07.1178 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 314] - Completed in 1635 
+2024-12-11 10:50:08.8724 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 315] - Completed in 1754 
+2024-12-11 10:50:10.5565 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 316] - Completed in 1684 
+2024-12-11 10:50:12.3856 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 317] - Completed in 1829 
+2024-12-11 10:50:14.1672 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 318] - Completed in 1781 
+2024-12-11 10:50:15.8718 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 319] - Completed in 1703 
+2024-12-11 10:50:17.5709 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 320] - Completed in 1698 
+2024-12-11 10:50:19.4606 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 321] - Completed in 1889 
+2024-12-11 10:50:21.1869 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 322] - Completed in 1725 
+2024-12-11 10:50:22.8518 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 323] - Completed in 1664 
+2024-12-11 10:50:24.7110 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 324] - Completed in 1859 
+2024-12-11 10:50:26.4674 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 325] - Completed in 1755 
+2024-12-11 10:50:28.2158 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 326] - Completed in 1748 
+2024-12-11 10:50:29.9303 DEBUG RetrieverService.RetrieveAllAsync[ServiceLocation page 327] - Completed in 1714 
+2024-12-11 12:01:33.8739 INFO Breakthru Beverage Location Exporter v1.0.1.0 
+2024-12-11 12:01:33.9136 INFO      Connecting to RNA Server... 
+2024-12-11 12:01:36.9769 DEBUG ConnectionService.InitAsync[Full-Login-Call] - Completed in 2935 
+2024-12-11 12:01:36.9961 DEBUG ConnectionService.InitAsync[Query Service Construction] - Completed in 18 
+2024-12-11 12:01:38.4948 DEBUG ConnectionService.InitAsync[Retrieve-Regions-Call] - Completed in 1498 
+2024-12-11 12:01:38.7128 DEBUG ConnectionService.InitAsync[Retrieve-BusinessUnits-Call] - Completed in 216 
+2024-12-11 12:01:38.8696 DEBUG ConnectionService.InitAsync[Retrieve-URLs-Call] - Completed in 156 
+2024-12-11 12:01:38.9100 DEBUG ConnectionService.InitAsync - Completed in 4961 
+2024-12-11 12:01:38.9355 INFO      Connected Successfully to RNA Server. Elapsed Seconds: 5.0224311 

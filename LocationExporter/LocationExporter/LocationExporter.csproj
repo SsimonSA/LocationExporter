@@ -77,9 +77,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\Phil's Code\RoadnetAnywhereIntegrator-master\packages\NLog.4.6.7\lib\net45\NLog.dll</HintPath>
     </Reference>
-    <Reference Include="PayMem.RoadnetAnywhere">
-      <HintPath>..\..\..\..\..\Phil's Code\RoadnetAnywhereIntegrator-master\RoadnetAnywhere\bin\Debug\PayMem.RoadnetAnywhere.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Security" />
@@ -155,6 +152,12 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\..\Dropbox\Sparks Analytics\Phil%27s Code\RoadnetAnywhereIntegrator-master\RoadnetAnywhere\RoadnetAnywhere.csproj">
+      <Project>{14f998d8-d65d-4b55-a56d-66f119575ccb}</Project>
+      <Name>RoadnetAnywhere</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
